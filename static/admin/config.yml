@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: App-Procurement/procurement-website
-  branch: main
+  repo: xformation/synectiks-netlify-website
+  branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
