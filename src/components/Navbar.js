@@ -217,7 +217,7 @@ class Navbar extends React.Component {
 							<a href="#">Resource &amp; Tools <i className="fas fa-chevron-down"></i></a>
 							<div className={`main-sub-menu`}>
 								<ul className="default-active">
-									{this.renderCategoriesDesktop("service", posts)}
+									{this.renderCategoriesDesktop("resource", posts)}
 								</ul>
 								<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
 									<BsChevronUp className='sub-icon' />
