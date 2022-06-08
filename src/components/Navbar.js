@@ -224,18 +224,6 @@ class Navbar extends React.Component {
 								</button>
 							</div>
 						</li>
-						{/* <li className="nav-item">
-							<Link to="/workflowpost">Workflow</Link>
-						</li>
-						<li className="nav-item">
-							<Link to="/survey">Survey Form</Link>
-						</li>
-						<li className="nav-item">
-							<Link to="/scenario/1">Scenario</Link>
-						</li>
-						<li className="nav-item">
-							<Link to="/xformation/xformation/">Xformation</Link>
-						</li> */}
 					</ul>
 				</div>
 				<div className="nav-search">
