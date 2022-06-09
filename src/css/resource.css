@@ -1,0 +1,22 @@
+#res-card-holder {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5em;
+}
+.res-cards {
+    width: 25vw;
+    height: 50vh;
+    text-align: center;
+    padding: 10% 5%;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+}
+.res-cards a {
+    color: #030303;
+    font-size: 1.8rem;
+    text-decoration: none;
+}

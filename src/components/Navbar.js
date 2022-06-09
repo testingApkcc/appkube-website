@@ -228,7 +228,7 @@ class Navbar extends React.Component {
 							<Link to="/workflowpost">Resource Tools</Link>
 						</li> */}
 							<li className="nav-item">
-							<Link to="/resource">Resource Tools</Link>
+							<Link to="/resource">Resource &amp; Tools</Link>
 						</li>
 						<li className="nav-item">
 							<Link to="/survey">Survey Form</Link>
