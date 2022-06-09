@@ -213,7 +213,7 @@ class Navbar extends React.Component {
 								</button>
 							</div>
 						</li>
-						<li className={`nav-item dropdown ${mainMenuActiveIndex === 2 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(2)} onMouseOut={() => this.setMainMenuActive(-1)}>
+						{/* <li className={`nav-item dropdown ${mainMenuActiveIndex === 2 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(2)} onMouseOut={() => this.setMainMenuActive(-1)}>
 							<a href="#">Resource &amp; Tools <i className="fas fa-chevron-down"></i></a>
 							<div className={`main-sub-menu`}>
 								<ul className="default-active">
@@ -223,7 +223,34 @@ class Navbar extends React.Component {
 									<BsChevronUp className='sub-icon' />
 								</button>
 							</div>
+						</li> */}
+							{/* <li className="nav-item">
+							<Link to="/workflowpost">Resource Tools</Link>
+						</li> */}
+							<li className="nav-item">
+							<Link to="/resource">Resource Tools</Link>
 						</li>
+						<li className="nav-item">
+							<Link to="/survey">Survey Form</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/scenario/1">Scenario</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/xformation/xformation/">Xformation</Link>
+						</li>
+							{/* <li className="nav-item">
+							<Link to="/workflowpost">Workflow</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/survey">Survey Form</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/scenario/1">Scenario</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/xformation/xformation/">Xformation</Link>
+						</li> */}
 					</ul>
 				</div>
 				<div className="nav-search">
