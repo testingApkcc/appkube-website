@@ -7,6 +7,7 @@ Remedy:
 
 How AppKube Helps:
 
+![Alt text](image-2.png)
 
 As the enterprises are embracing modern cloud native application architecture, there is a paradigm shift of working of Developers/Security/Operations people. Developers need toolsets and SDKs to develop distributed cloud native SOA/Serverless Apps quickly, reliably in predictable manner. Security team needs toolsets to cater security and compliances across the clouds and services. Operations teams need appropriate toolsets and framework so that they can manage distributed SOA applications across clouds. Also, currently Dev, Sec, and Ops teams work in silos. Gone are the days when business used to deliver production services in a 7-12-month release cycle with a large engineering team involving multiple roles and chain of responsibilities. They are looking for simplified roles with increased responsibilities so that they can deliver services and achieve business agility and reliability.
 
