@@ -8,7 +8,7 @@ How AppKube Helps:
 
     Enterprises today have multiple products owned by different departments, deployed across multiple clouds. Each product has multiple environments, many services, and associated components. Managing all the Development/Security/Operation aspects of them poses exponential complexity and thereby causing huge OpEx. It takes significant time to provision the cloud environment for any product for any team without having self-service-based provisioning portal and it also takes tremendous effort to establish monitoring and visibility of products and their services - especially the Performance/Availability/Reliability/Security/End-Usage of every participating component once the products are deployed in cloud.
 
-Customers are looking for a single control plane to manage any cloud and any service in the same way. They are looking for a platform to do self-service-based provisioning and reclaiming of the cloud assets. They are also looking for standard operation and governance processes that work seamlessly for different clouds in the same way. Finally, they look for simplicity to manage multi-cloud hybrid environment.
+    Customers are looking for a single control plane to manage any cloud and any service in the same way. They are looking for a platform to do self-service-based provisioning and reclaiming of the cloud assets. They are also looking for standard operation and governance processes that work seamlessly for different clouds in the same way. Finally, they look for simplicity to manage multi-cloud hybrid environment.
 
 ![Alt text](image.png)
 
