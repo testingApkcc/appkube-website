@@ -14,6 +14,7 @@ Appkube helps you assess what you have today, where you want to go, and find the
 -   App-Centric Optimization 
 -   Automated Cost Control 
 -   High Precision Migration
+  
 It’s a platform that provides peace of mind, governance, efficiency, and control of multi-cloud environments.Appkube reduces the complexity of cloud migration and transformation. A platform that automatically lays the backbone for cloud environment following best practices and establishes required governance and processes to work in cloud native environment speed up the migration and modernization time significantly. It's a platform that treat every coud provider in same way and helps you to deliver products and services with most modern architectures in same way across any cloud platform laying the path of higehest flexibilty. The platform delivers cloud native app blocks that accelerates the development of cloud native products and services , it helps you to become complete hadware / license / vendor agnostics.
 
 
