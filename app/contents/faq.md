@@ -15,7 +15,7 @@ What is the key Use-case?
 -   Cloud Optimization
 -   DevSecOps Adoption
 
-Whom are we competing with?
+Whom are we competing with? 
 
 Splunk / Gitlab / Datadog / New Relic / LogicMonitor / DynaTrace / SumoLogic / Epsagon / Lumigo / Instana / LogDNA / Serverless360 / Veem One / Microsoft System Centre / AppDynamic / Google Cloud Operation Manager / Cloud Kick / Monitis /CloudMonix / CA UIM / NIMSOFT / MONITIS / StacksWith / Rancher / Openshift / LogicMonitor / Centilytics / Microfocus / Microsoft System Centre / Google Cloud Operation Manager / ThousandEyes
 
@@ -30,9 +30,9 @@ Primarily B2B:
 
 What defines success for this product?
 
-Customers using this product:        
+Customers using this product:
 
--   Achieve 40% more business agility, reliability, scalability, and security in their services offering.       
+-   Achieve 40% more business agility, reliability, scalability, and security in their services offering.
 -   Reduce 50% CapEx/OpEx in their IT spending.
 
 Which customers may get more benefits?
