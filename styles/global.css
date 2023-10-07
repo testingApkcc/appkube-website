@@ -65,6 +65,11 @@ nav {
     max-width: 1224px;
     margin-inline: auto;
 }
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
 header {
     display: flex;
@@ -287,7 +292,7 @@ main {
     color: var(--neutral-white-200, #F6F6F7);
 
     /* Button/RG */
-    font-size: 1rem;  
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;

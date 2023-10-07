@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import { AiFillCaretDown } from "react-icons/ai";
 const Nav = () => {
   return (
     <>
@@ -9,13 +9,13 @@ const Nav = () => {
                 <img src="images/appkubelogo.png" alt=""/>
             </div>
 
-            <ul className="nav-links">
-                <li><a id="home" href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/features">Features</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/blog">Blog</a></li>
-            </ul>
+            <div className="nav-links">
+                <Link id="home" href="/">Home</Link>
+                <Link className='dropdown' href="/about">features <AiFillCaretDown/> </Link>
+                <Link href="/features">solutions</Link>
+                <Link className='dropdown' href="/pricing">resources <AiFillCaretDown/></Link>
+                <Link href="/blog">pricing</Link>
+            </div>
 
             <button className="trial-btn">Free Trial</button>
         </nav>
