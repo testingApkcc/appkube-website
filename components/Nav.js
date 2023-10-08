@@ -19,7 +19,8 @@ const Nav = () => {
 
             <button className="trial-btn">Free Trial</button>
         </nav>
-    </header> <div className="header-hr"></div>
+    </header>
+    {/* <div className="header-hr"></div> */}
     </>
   )
 }

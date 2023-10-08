@@ -1,5 +1,7 @@
-'use client'
+// 'use client'
 import Image from 'next/image'
+import { MdOutlineCheckBoxOutlineBlank,MdOutlineCheckBox } from "react-icons/md";
+
 export default function Home() {
   return (
     <>
@@ -39,7 +41,7 @@ export default function Home() {
                 Optimize
             </h1>
 
-            <p>We Discover Infrastructure, Corelate With Business, <br/> Optimize With Container / Serverless
+            <p>We Discover Infrastructure, Corelate With <br/>Business,  Optimize With Container / Serverless <br />
                 Platform</p>
         </div>
 
@@ -57,64 +59,8 @@ export default function Home() {
 
     <img  className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
 </section>
-<section className="sec-2">
-    <div className="sec2-top container">
-        <h1>Powerful features to help you <br/> manage all your products</h1>
-        <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
-            ultrices metus morbi aliquet vel.</p>
-    </div>
-
-    <div className="cards-con container">
-        <div className="cards-row flex">
-            <div className="card">
-                <img  className="icon" src="images/icon.svg" alt="" />
-                <h2>Appcentric Optimization</h2>
-                <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
-
-            <div className="card">
-                <img  className="icon" src="images/icon (1).png" alt="" />
-                <h2>Cloud Native
-                    RAD Building Block</h2>
-                <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
-            </div>
-
-            <div className="card">
-                <img  className="icon" src="images/icon-2.svg" alt="" />
-                <h2>SRE - Infra and App</h2>
-                <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
-        </div>
-        <div className="cards-row flex">
-            <div className="card">
-                <img  className="icon" src="images/icon-2.png" alt="" />
-                <h2>DevSecOps Tooling</h2>
-                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
-
-            <div className="card">
-                <img  className="icon" src="images/icon-1.svg" alt="" />
-                <h2>Application Modernization</h2>
-                <p>Bem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
-
-            <div className="card">
-                <img  className="icon" src="images/icon-3.png" alt="" />
-                <h2>FinOps</h2>
-                <p>Keem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
-        </div>
-
-
-    </div>
-</section>
 <section className="sec-3">
-    <h1>Gain complete insights into <br/> modern applications</h1>
+    <h1 className='title'>Gain complete insights into <br/> INFRA / APP / Business</h1>
     <div className="con-1 container">
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
         <div className="left">
@@ -129,7 +75,9 @@ export default function Home() {
         </div>
         <img  className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
     </div>
-
+<div className="sec-3">
+        <h2 className='title maddy fz'>An App-centric Cloud Optimization platform <br />that improves business reliability and <br />reduce up to 90% cloud spend.</h2>
+</div>
     <div className="con-2 container">
         <div className="con2-left">
             <div className="app-img"><img  className="app-view" src="images/App View 1.png" alt="" /></div>
@@ -150,65 +98,9 @@ export default function Home() {
                 <p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.
                 </p>
             </div>
-            <table>
-                <tr>
-                    <td className="first-td"><i className="fa-regular fa-square td-square"></i>
-                        <span style={{display: "inline"}}>Name</span> <img  src="table-icons/arrow-up.png" alt="" />
-                    </td>
-                    <td>
-                        <span> Type </span>
-                    </td>
-                    <td>
-                        <span> Save </span>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td className="td1"><i className="fa-regular fa-square td-square"></i> <img  src="table-icons/Folder.png"
-                            alt="" />
-                        <p>Q1 Overview</p>
-                    </td>
-                    <td>
-                        <span> Files </span>
-                    </td>
-                    <td>
-                        <span> 10.5GB </span>
-                    </td>
-                </tr>
-                <tr>
-                    <td><i className="fa-regular fa-square td-square"></i> <img  src="table-icons/Filter 2.png" alt="" />
-                        <span>Team Review</span>
-                    </td>
-                    <td>
-                        <span> Docx </span>
-                    </td>
-                    <td>
-                        <span> 10.5GB </span>
-                    </td>
-                </tr>
-                <tr>
-                    <td><i className="fa-regular fa-square td-square"></i> <img  src="table-icons/Ticket.png" alt="" />
-                        <span>Fetch Table Py</span>
-                    </td>
-                    <td>
-                        <span> Code </span>
-                    </td>
-                    <td>
-                        <span> 10.5GB </span>
-                    </td>
-                </tr>
-                <tr>
-                    <td><i className="fa-regular fa-square td-square"></i> <img  src="table-icons/Filter 2.png" alt="" />
-                        <span>Cap Table Xlc</span>
-                    </td>
-                    <td>
-                        <span> XLC </span>
-                    </td>
-                    <td>
-                        <span> 10.5GB </span>
-                    </td>
-                </tr>
-            </table>
+            <div className="img-block">
+                {/* <img src="group.svg" alt="" /> */}
+            </div>
             <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" />
         </div>
     </div>
@@ -218,29 +110,51 @@ export default function Home() {
         <button>Browse all feature</button>
     </div>
 </section>
-<section className="sec-4 container">
-    <div className="sec4-con">
-        <div className="left-side">
-            <h1>Transparent, Audited, & Open source</h1>
-            <p>Torem ipsum dolor sit amet consectetur. Nulla quisque scelerisque eget quis. Eu amet amet eu
-                interdum.</p>
-            <button className="feature-btn">Browse all feature</button>
-        </div>
-        <div className="right-side">
-            <div className="rs-borders">
-                <img src="ellipse/code.svg" alt="" />
-                {/* <pre>
-                        const salt = srp.generateSalt();
-                        const masterSecret = await createKeyFromSecret(password, salt);
+<section className="sec-2">
+    <div className="sec2-top container">
+        <h2 className='title'>Appkube Primary Business Goals</h2>
+        {/* <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
+            ultrices metus morbi aliquet vel.</p> */}
+    </div>
 
-                        const verifierPrivateKey = await createSRPKey(password, salt);
-                        const verifier = srp.deriveVerifier(verifierPrivateKey);
-                    </pre> */}
+    <div className="cards-con container">
+        <div className="cards-row flex">
+            <div className="card">
+                <img  className="icon" src="images/icon.svg" alt="" />
+                <h2>Cloud Optimization</h2>
+                <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
             </div>
-            <img  style={{display: 'none'}}  className="vector-line" src="images/vector lines/Vector 4.png" alt="" />
-            <img  style={{display: "none"}} className="vector-line2" src="images/vector lines/Vector 5.png" alt="" />
 
+            <div className="card">
+                <img  className="icon" src="images/icon (1).png" alt="" />
+                <h2>Accelerated Cloud Adoption</h2>
+                <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
+            </div>
+
+            <div className="card">
+                <img  className="icon" src="images/icon-2.svg" alt="" />
+                <h2>Accelerated Modernization</h2>
+                <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
+             <div className="card">
+                <img  className="icon" src="images/icon-2.png" alt="" />
+                <h2>Become Hardware / Vendor / License Agnostic</h2>
+                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
         </div>
+    </div>
+</section>
+
+<section className="sec-4 container">
+    <h2 className="title">
+        Powerful Cloud Native ISV Solutions to accelerate your cloud adoption
+    </h2>
+    <img src="AppKube.svg" alt="" />
+    {/* <div className="sec4-con">
+
     </div>
 
     <div className="sec4-con2">
@@ -279,9 +193,57 @@ export default function Home() {
             </div>
         </div>
 
-    </div>
+    </div> */}
 
 </section>
+<section className="sec-2">
+    <div className="sec2-top container">
+        <h2 className='title'>Appkube Primary Business Goals</h2>
+        <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
+            ultrices metus morbi aliquet vel.</p>
+    </div>
+
+    <div className="cards-con container">
+        <div className="cards-row flex">
+            <div className="card w-md">
+                <img  className="icon" src="images/icon.svg" alt="" />
+                <h2>Appcentric Optimization</h2>
+                <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
+            <div className="card w-md">
+                <img  className="icon" src="images/icon (1).png" alt="" />
+                <h2>Cloud Native RAD Building BLock</h2>
+                <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
+            </div>
+            <div className="card w-md">
+                <img  className="icon" src="images/icon-2.svg" alt="" />
+                <h2>SRE-Infra and App</h2>
+                <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
+             <div className="card w-md">
+                <img  className="icon" src="images/icon-2.png" alt="" />
+                <h2>DevSecops Tooling</h2>
+                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
+             <div className="card w-md">
+                <img  className="icon" src="images/icon-2.png" alt="" />
+                <h2>Application Modernizationc</h2>
+                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
+             <div className="card w-md">
+                <img  className="icon" src="images/icon-2.png" alt="" />
+                <h2>Become Hardware / Vendor / License Agnostic</h2>
+                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
+                    ultricies convallis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section className="clints-sec">
     <div className="clints-heading">
         <h1>What our clients say</h1>
