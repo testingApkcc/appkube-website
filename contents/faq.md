@@ -1,15 +1,17 @@
 
 What is AppKube?
 
-It is a multi-cloud cloud management platform that does:
+It is a multi-cloud cloud management platform that helps customers 
+    1. Reduce 50% Cloud Spend
+    2. Improve 2X business agility, reliability, scalability, and security.
+   
+Key features are 
+    1. App Centric Optimization
+    2. SRE
+    3. DevSecOps Tooling
+    4. Cloud Native App Blocks
 
--   App Centric Optimization
--   SRE
--   DevSecOps Tooling
--   Cloud Native App Blocks
-
-What is the key Use-case?
-
+What are the key Use-cases?
 -   Migration & Modernization
 -   Cloud Native App Development(Build Vs Buy & Fast Data)
 -   Cloud Optimization
@@ -32,7 +34,7 @@ What defines success for this product?
 
 Customers using this product:        
 
--   Achieve 40% more business agility, reliability, scalability, and security in their services offering.       
+-   Achieve 2X more business agility, reliability, scalability, and security in their services offering.       
 -   Reduce 50% CapEx/OpEx in their IT spending.
 
 Which customers may get more benefits?
