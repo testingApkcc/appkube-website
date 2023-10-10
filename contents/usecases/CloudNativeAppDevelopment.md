@@ -1,3 +1,5 @@
+This use case is also applicable for (Build Vs Buy or FastData Platform)
+
 Problem Statement:
 Organization are incresingly looking for Custom-built software as that offers 
         1. Greater flexibility than packaged solutions.As business grows and changes, you can easily make changes to your   software to accommodate those changes. 

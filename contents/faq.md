@@ -11,7 +11,7 @@ It is a multi-cloud cloud management platform that does:
 What is the key Use-case?
 
 -   Migration & Modernization
--   Cloud Native App Development
+-   Cloud Native App Development(Build Vs Buy & Fast Data)
 -   Cloud Optimization
 -   DevSecOps Adoption
 
