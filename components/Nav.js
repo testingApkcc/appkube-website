@@ -11,7 +11,7 @@ const Nav = () => {
 
             <div className="nav-links">
                 <Link id="home" href="/">Home</Link>
-                <Link className='dropdown' href="/about">features <AiFillCaretDown/> </Link>
+                <Link className='dropdown' href="/features">features <AiFillCaretDown/> </Link>
                 <Link href="/features">solutions</Link>
                 <Link className='dropdown' href="/pricing">resources <AiFillCaretDown/></Link>
                 <Link href="/blog">pricing</Link>

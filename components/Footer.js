@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-        <div className="footer-main container">
+    <footer className="container">
+        <div className="footer-main">
             <div className="news-letter">
                 <div className="logo"> <img src="images/appkubelogo.png" alt=""/> </div>
                 <h6>Subscribe to our newsletter</h6>

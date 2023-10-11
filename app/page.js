@@ -147,7 +147,6 @@ export default function Home() {
         </div>
     </div>
 </section>
-
 <section className="sec-4 container">
     <h2 className="title">
         Powerful Cloud Native ISV Solutions to accelerate your cloud adoption
@@ -243,7 +242,6 @@ export default function Home() {
         </div>
     </div>
 </section>
-
 <section className="clints-sec">
     <div className="clints-heading">
         <h1>What our clients say</h1>
