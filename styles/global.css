@@ -10,6 +10,10 @@
     /* overflow-x: hidden; */
 }
 
+body {
+    background-color: #060b27;
+}
+
 p {
     font-size: 16px;
     font-style: normal;
@@ -17,7 +21,9 @@ p {
     line-height: 24px;
     font-family: 'Inter', sans-serif;
 }
+.title{
 
+}
 /* have to display block */
 .left-side {
     display: none;
@@ -88,24 +94,42 @@ svg.heading-arrows {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
 .subtitle {
-    color: var(--neutral-gray-300, #8F9BB7);
+    color: #8F9BB7;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 40px;
     letter-spacing: -0.96px;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin: 25px auto;
 }
-
+.title-hero,.sub-heading{
+    text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: -0.96px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        margin: 25px auto;
+}
+.heading6{
+font-size: 1.5rem;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: -0.96px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin: 25px auto;
+}
 button {
     cursor: pointer;
 }
