@@ -45,7 +45,7 @@ const Footer = () => {
 <div className="devider container"></div>
     <div className="sub-footer container flex">
         <p>Copyright © Product | Designed by Synectiks It Consulting</p>
-
+    
         <div className="social-media-icons flex">
             <img className="sm-icons" src="images/social media icons/ph_instagram-logo-fill.png" alt=""/>
             <img className="sm-icons" src="images/social media icons/mdi_twitter.png" alt=""/>
