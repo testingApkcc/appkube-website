@@ -11,10 +11,10 @@ const Nav = () => {
 
             <div className="nav-links">
                 <Link id="home" href="/">Home</Link>
-                <Link className='dropdown' href="/features">features <AiFillCaretDown/> </Link>
-                <Link href="/features">solutions</Link>
-                <Link className='dropdown' href="/pricing">resources <AiFillCaretDown/></Link>
-                <Link href="/blog">pricing</Link>
+                <Link className='dropdown' href="/features">Features <AiFillCaretDown/> </Link>
+                <Link href="/about">Solutions</Link>
+                <Link className='dropdown' href="/pricing">Resources <AiFillCaretDown/></Link>
+                <Link href="/blog">Pricing</Link>
             </div>
 
             <button className="trial-btn">Free Trial</button>

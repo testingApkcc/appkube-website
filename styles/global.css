@@ -29,7 +29,13 @@ p {
 
 /* have to display block */
 
+.tl {
+    text-align: left !important;
+}
 
+.tc {
+    text-align: center;
+}
 
 /* utilities */
 
@@ -2189,7 +2195,7 @@ img {
 
 .hero {
     border-radius: 15px;
-    border: 1px solid #8F9BB7;
+    /* border: 1px solid #8F9BB7; */
     /* background: url('../public/devsecops/devsecopsp1.svg'); */
     width: 55vw;
     /* height: 39vw; */
@@ -2258,3 +2264,10 @@ img {
     gap: 5%;
     background: linear-gradient(to right, #282D45, #0E1330);
 }
+
+/* App centric page */
+.hero-appcentric {
+    display: flex;
+}
+
+/* App centric page */
