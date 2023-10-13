@@ -13,20 +13,34 @@
 }
 
 :root {
+  --width-main: 63.75vw;
   --title: 4rem;
-  --subtitle: 3.5rem;
+  --subtitle: 2rem;
   --sub-heading: 2rem;
-  --heading-6: 1.5rem;
+  --sm-card-heading: 1.5rem;
   --inter: 'Inter', sans-serif;
   --poppins: 'Poppins', sans-serif;
-    font-size: 16px;
+  --color: #fff;
+  --border: border: 1px solid #282D45;
+  --grad-bg: background-image: linear-gradient(230deg,
+      hsl(235deg 53% 13%) 0%,
+      hsl(236deg 53% 14%) 47%,
+      hsl(237deg 54% 15%) 66%,
+      hsl(238deg 54% 15%) 78%,
+      hsl(239deg 53% 16%) 85%,
+      hsl(240deg 53% 16%) 90%,
+      hsl(242deg 55% 17%) 93%,
+      hsl(243deg 56% 17%) 96%,
+      hsl(245deg 57% 18%) 97%,
+      hsl(247deg 59% 18%) 100%);
+  font-size: 16px;
 }
 
 
 .title {
   font-size: var(--title);
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 64px;
   letter-spacing: -1.68px;
   font-family: var(--poppins);
@@ -38,12 +52,23 @@
   margin-bottom: 30px;
 }
 
-.subtitle{
-color: #8F9BB7;
+.subheading {
+  color: var(--color);
   text-align: center;
   font-size: var(--subtitle);
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
+  line-height: 40px;
+  font-family: var(--poppins);
+  margin: 25px auto;
+}
+
+.subtitle {
+  color: #8F9BB7;
+  text-align: center;
+  font-size: var(--sub-heading);
+  font-style: normal;
+  font-weight: bold;
   line-height: 40px;
   letter-spacing: -0.96px;
   font-family: var(--poppins);
@@ -52,20 +77,113 @@ color: #8F9BB7;
 
 nav {
   font-family: var(--inter);
-
 }
 
-.container{
-  max-width: 1224px;
+p,
+ul,
+il {
+  color: #8F9BB7;
+  /* text-align: center; */
+  font-style: normal;
+  font-family: var(--inter);
+  margin: 25px auto;
 }
-.df{
+
+.sm-card-fnt{
+  font-size: var(--sm-card-heading);
+  font-weight: bold;
+  line-height: 34px;
+}
+.wrap-p {
+  padding: 0px 15vw;
+}
+
+.wrapper-bg {
+  background-image: linear-gradient(230deg,
+      hsl(235deg 53% 13%) 0%,
+      hsl(236deg 53% 14%) 47%,
+      hsl(237deg 54% 15%) 66%,
+      hsl(238deg 54% 15%) 78%,
+      hsl(239deg 53% 16%) 85%,
+      hsl(240deg 53% 16%) 90%,
+      hsl(242deg 55% 17%) 93%,
+      hsl(243deg 56% 17%) 96%,
+      hsl(245deg 57% 18%) 97%,
+      hsl(247deg 59% 18%) 100%);
+}
+
+.container {
+  max-width: 63.774rem;
+}
+
+.bdr {
+  border: 1px solid #323759;
+  border-radius: 10px;
+}
+
+.df {
   display: flex;
 }
-.jc-c{
+
+.fld {
+  flex-direction: column;
+}
+
+.jc-c {
   justify-content: center;
 }
-.ai-c{
+
+.ai-c {
   align-items: center;
+}
+
+.w-main {
+  width: var(--width-main);
+}
+
+.w-md {
+  width: 25vw;
+}
+
+.card-size {
+  width: 36.375rem;
+}
+.w-fluid{
+  width: 100%;
+}
+
+.bg-grad {
+  /* background-image: url('../public/gradient.png'); */
+  background-image: linear-gradient(230deg,
+      hsl(235deg 53% 13%) 0%,
+      hsl(236deg 53% 14%) 47%,
+      hsl(237deg 54% 15%) 66%,
+      hsl(238deg 54% 15%) 78%,
+      hsl(239deg 53% 16%) 85%,
+      hsl(240deg 53% 16%) 90%,
+      hsl(242deg 55% 17%) 93%,
+      hsl(243deg 56% 17%) 96%,
+      hsl(245deg 57% 18%) 97%,
+      hsl(247deg 59% 18%) 100%);
+}
+
+.bg-gra-invert {
+  background-image: linear-gradient(40deg,
+      hsl(235deg 53% 13%) 0%,
+      hsl(236deg 54% 14%) 21%,
+      hsl(238deg 53% 15%) 32%,
+      hsl(241deg 54% 17%) 40%,
+      hsl(244deg 56% 17%) 46%,
+      hsl(247deg 59% 18%) 52%,
+      hsl(236deg 56% 18%) 59%,
+      hsl(228deg 62% 18%) 68%,
+      hsl(223deg 66% 17%) 78%,
+      hsl(219deg 65% 17%) 88%,
+      hsl(216deg 60% 17%) 100%);
+}
+
+.pa {
+  padding: 3vw;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -78,7 +196,4 @@ nav {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }

@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
     <header>
-        <nav className="flex">
+        <nav className="flex w-main">
             <div className="logo">
                 <img src="images/appkubelogo.png" alt=""/>
             </div>

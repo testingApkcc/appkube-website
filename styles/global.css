@@ -79,9 +79,7 @@ svg.heading-arrows {
     text-align: center;
 }
 
-.subtitle {
-   
-}
+.subtitle {}
 
 .title-hero,
 .sub-heading {
@@ -92,7 +90,6 @@ svg.heading-arrows {
     line-height: 40px;
     letter-spacing: -0.96px;
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
     margin: 25px auto;
 }
 
@@ -2204,13 +2201,13 @@ img {
 }
 
 .comp-block {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
     border: 1px solid #282D45;
-    background: linear-gradient(to right, #282D45, #0E1330);
+    /* background: linear-gradient(to right, #282D45, #0E1330); */
     padding: 4%;
     margin: 3% 0%;
 }
@@ -2253,16 +2250,29 @@ img {
 }
 
 .fimageblock {
-    width: 70%;
+    width: 25vw;
 }
 
 .flex-col-bg {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    padding: 3%;
+    /* padding: 3%; */
     gap: 5%;
-    background: linear-gradient(to right, #282D45, #0E1330);
+    /* background: linear-gradient(to right, #282D45, #0E1330); */
+    /* background-image: linear-gradient(to left bottom, #101334, #111339, #13143f, #161344, #191349); */
+    background-image: linear-gradient(230deg,
+            hsl(235deg 53% 13%) 0%,
+            hsl(236deg 53% 14%) 47%,
+            hsl(237deg 54% 15%) 66%,
+            hsl(238deg 54% 15%) 78%,
+            hsl(239deg 53% 16%) 85%,
+            hsl(240deg 53% 16%) 90%,
+            hsl(242deg 55% 17%) 93%,
+            hsl(243deg 56% 17%) 96%,
+            hsl(245deg 57% 18%) 97%,
+            hsl(247deg 59% 18%) 100%);
+    width: 63.75vw;
 }
 
 /* App centric page */
