@@ -55,6 +55,19 @@ nav {
 
 }
 
+.container{
+  max-width: 1224px;
+}
+.df{
+  display: flex;
+}
+.jc-c{
+  justify-content: center;
+}
+.ai-c{
+  align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

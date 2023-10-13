@@ -3,7 +3,7 @@ import React from 'react'
 const features = () => {
   return (
   <>
-  <section id='devsecops' className='container'>
+  <section id='devsecops'>
     <div className="hero-appcentric">
      <div>
          <h1 className='title tl'>"Are Your Cloud Expenses <br />spiraling Out of Control?"</h1>
