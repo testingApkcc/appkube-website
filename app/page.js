@@ -242,7 +242,7 @@ export default function Home() {
         </div>
     </div>
 </section>
-<section className="clints-sec">
+{/* <section className="clints-sec">
     <div className="clints-heading">
         <h1>What our clients say</h1>
         <p>Rmet facilisi arcu odio urna aenean erat. Pellentesque in vitae lobortis orci tincidunt facilisis.
@@ -329,8 +329,8 @@ export default function Home() {
         </div>
     </div>
 
-</section>
-<section className="discord-sec">
+</section> */}
+{/* <section className="discord-sec">
     <img  id="mountain" src="discord-images/Vector.png" alt="" />
 
     <img  style={{position: "absolute", bottom: "0", left: "20%"}} src="sparkles/ellipse20.png" className="discord-ellipe" alt="" />
@@ -393,7 +393,7 @@ export default function Home() {
             </div>
         </div>
     </div>
-</section>
+</section> */}
     </>
   )
 }

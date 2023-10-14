@@ -8,13 +8,12 @@ const Nav = () => {
             <div className="logo">
                 <img src="images/appkubelogo.png" alt=""/>
             </div>
-
             <div className="nav-links">
                 <Link id="home" href="/">Home</Link>
-                <Link className='dropdown' href="/features">Features <AiFillCaretDown/> </Link>
-                <Link href="/about">Solutions</Link>
-                <Link className='dropdown' href="/pricing">Resources <AiFillCaretDown/></Link>
-                <Link href="/blog">Pricing</Link>
+                <Link className='dropdown' href="/devsecops">Devsecops  </Link>
+                <Link href="/appcentric">Appcentric</Link>
+                <Link className='dropdown' href="/sre">Sre </Link>
+                <Link href="/blog">Cloud Native</Link>
             </div>
 
             <button className="trial-btn">Free Trial</button>
