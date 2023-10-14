@@ -92,6 +92,12 @@
   margin: 25px auto;
 }
 
+.footer-heading {
+  font-size: var(--sm-card-heading);
+  font-family: var(--inter);
+  font-weight: 400;
+}
+
 nav {
   font-family: var(--inter);
 }
