@@ -1,6 +1,4 @@
-import React from 'react'
-
-const devSecops = () => {
+const DevSecops = () => {
   return (
     <section id='devsecops'>
         <h1>unleash the power of devsecOps <br /> with appkube</h1>
@@ -10,4 +8,4 @@ const devSecops = () => {
   )
 }
 
-export default devSecops
+export default DevSecops

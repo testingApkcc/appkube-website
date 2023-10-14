@@ -151,6 +151,9 @@ il {
 .w-fluid{
   width: 100%;
 }
+.w-75{
+  width: 80vw;
+}
 
 .bg-grad {
   /* background-image: url('../public/gradient.png'); */
@@ -186,6 +189,9 @@ il {
   padding: 2vw 3vw;
 }
 
+.pl1{
+  padding-top: 1.5vw;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

@@ -3,15 +3,18 @@ import React from 'react'
 const features = () => {
   return (
   <>
-  <>
   <section id='devsecops'>
-        <h1 className='title'>Unleash the Power of DevSecOps <br /> with Appkube</h1>
-        <h3 className='subtitle'>Modernize Your Legacy Technology Stack and Accelerate <br /> Your Business Agility and Reliability</h3>
+    <div className='df w-main ai-c'>
+      <div className='pl1'>
+        <h1 className='title tl'>Unleash the Power of DevSecOps <br /> with Appkube</h1>
+        <h3 className='subtitle tl'>Modernize Your Legacy Technology Stack and Accelerate <br /> Your Business Agility and Reliability</h3>
         <a href="#" className='dev-btn'>explore appkube solutions</a>
-        <div className="hero">
-        <img src="devsecops/one.jpg" alt="" />
+      </div>
+        <div className="hero w-75">
+        <img className='bdr' src="devsecops/one.jpg" alt="" />
+    </div>
         </div>
-          <div className="comp-block">
+          <div className="comp-block maddy">
             <div className="textblock">
               <h4 className='section-title'>Navigating the Competitive Landscape</h4>
               <p>Brief about the challenges faced by most enterprises such as competition, the introduction of new products, and the struggle to deliver speed, agility, flexibility, and better customer experience due to Legacy Application, Infrastructure, and IT Processes.</p>
@@ -121,7 +124,6 @@ const features = () => {
           </div>
 
     </section>
-    </>
     </>
   )
 }
