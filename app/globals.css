@@ -15,6 +15,7 @@
 :root {
   --width-main: 63.75vw;
   --title: 4rem;
+  --section-title: 3.5rem;
   --subtitle: 2rem;
   --sub-heading: 2rem;
   --sm-card-heading: 1.5rem;
@@ -51,6 +52,22 @@
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
+.sec-title {
+  font-size: var(--section-title);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -1.68px;
+  font-family: var(--poppins);
+  background: linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
 
 .subheading {
   color: var(--color);
@@ -89,11 +106,12 @@ il {
   margin: 25px auto;
 }
 
-.sm-card-fnt{
+.sm-card-fnt {
   font-size: var(--sm-card-heading);
   font-weight: bold;
   line-height: 34px;
 }
+
 .wrap-p {
   padding: 0px 15vw;
 }
@@ -148,10 +166,12 @@ il {
 .card-size {
   width: 34rem;
 }
-.w-fluid{
+
+.w-fluid {
   width: 100%;
 }
-.w-75{
+
+.w-75 {
   width: 80vw;
 }
 
@@ -189,9 +209,10 @@ il {
   padding: 2vw 3vw;
 }
 
-.pl1{
+.pl1 {
   padding-top: 1.5vw;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

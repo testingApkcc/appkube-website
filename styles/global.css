@@ -277,7 +277,7 @@ main {
 .headings {
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    /* gap: 40px; */
     margin: auto;
 }
 
@@ -286,15 +286,13 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Heading/H1 */
     font-size: 4rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',
+        sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 72px;
-    /* 112.5% */
     letter-spacing: -1.92px;
-
     background: var(--linear-gradient, linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -453,7 +451,7 @@ main {
     align-items: center;
     /* max-width: 1224px; */
     gap: 100px;
-    /* justify-content: space-between; */
+    justify-content: center;
     margin-inline: auto;
 
 }

@@ -70,7 +70,7 @@ const features = () => {
           <div className="flex-col bdr w-main pp ">
             <div className="wimg "><img className='pt' src="appcentric/cost optimization image p7.svg" alt="" /></div>
             <div className="ftextblock flexorder pr">
-              <h4 className='sm-card-fnt'>"Achieve More with Less: Reliable and Cost -Effective"</h4>
+              <h4 className='sm-card-fnt'>"Achieve More with Less: Reliable and Cost - Effective"</h4>
               <p>How Appkube reduces Infra CapEx and OpEx while improving reliability. Mention of AppKube's accelerators for speedy transformation.</p>
             </div>
           </div>

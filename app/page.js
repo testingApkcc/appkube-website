@@ -8,9 +8,8 @@ export default function Home() {
 <section className="sec-1">
     <img  className="ellipse1" src="images/ellipse.png" alt="" />
     <div className="container">
-
         <div className="headings flex">
-            <h1> Discover
+            <h1 className='title'> Discover
                 <svg className="heading-arrows" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
                     viewBox="0 0 60 60" fill="none">
                     <g clipPath="url(#clip0_310_19)">
@@ -40,34 +39,30 @@ export default function Home() {
                 </svg>
                 Optimize
             </h1>
-
-            <p>We Discover Infrastructure, Corelate With <br/>Business,  Optimize With Container / Serverless <br />
-                Platform</p>
+            <h2 className='subtitle'>We Discover Infrastructure, Corelate With <br/>Business,  Optimize With Container / Serverless Platform</h2>
         </div>
 
-        <div className="sec-1-btns flex">
+        {/* <div className="sec-1-btns flex">
             <button>Get a free demo</button>
             <button>Free trial</button>
-        </div>
+        </div> */}
 
         <div className="hero-img">
             <img  src="images/image-1.png" alt=""/>
         </div>
-
-
     </div>
 
     <img  className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
 </section>
 <section className="sec-3">
-    <h1 className='title'>Gain complete insights into <br/> INFRA / APP / Business</h1>
+    <h2 className='sec-title'>Gain complete insights into <br/> INFRA / APP / BUSINESS</h2>
     <div className="con-1 container">
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
         <div className="left">
-            <h2>Monitor, Troubleshoot, and <br/> Optimize Cloud Performance.</h2>
+            <h3 className='subheading tl'>Monitor, Troubleshoot, and Optimize Cloud Performance.</h3>
             <p>Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra sed volutpat mauris.
                 Amet nisi amet commodo adipiscing ut imperdiet nunc.</p>
-            <button>Learn More</button>
+            {/* <button>Learn More</button> */}
         </div>
 
         <div className="right">
@@ -76,14 +71,14 @@ export default function Home() {
         <img  className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
     </div>
 <div className="sec-3">
-        <h2 className='title maddy fz'>An App-centric Cloud Optimization platform <br />that improves business reliability and <br />reduce up to 90% cloud spend.</h2>
+        <h2 className='sec-title tc maddy'>An App-centric Cloud Optimization platform that improves business reliability and reduce up to 90% cloud spend.</h2>
 </div>
     <div className="con-2 container">
         <div className="con2-left">
             <div className="app-img"><img  className="app-view" src="images/App View 1.png" alt="" /></div>
 
             <div className="left-bottom">
-                <h5 className="con2-h4">Get detailed View of <br/> Business and App Services</h5>
+                <h5 className="subheading tl">Get detailed View of <br/> Business and App Services</h5>
                 <p className="con2-p">Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet
                     condimentum. Vulputate varius feugiat egestas congue </p>
             </div>
@@ -94,7 +89,7 @@ export default function Home() {
             <img  src="ellipse/ellipse-13.png" alt="" className="ellipse-13" />
 
             <div className="right-top">
-                <h4>State of Application Security</h4>
+                <h4 className='subheading'>State of Application Security</h4>
                 <p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.
                 </p>
             </div>
@@ -104,15 +99,19 @@ export default function Home() {
             <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" />
         </div>
     </div>
+     <h2 className="sec-title tc">
+        Powerful Cloud Native ISV Solutions to accelerate your cloud adoption
+    </h2>
+    <img src="AppKube.svg" alt="" />
 
-    <div className="sec-3-btns flex">
+    {/* <div className="sec-3-btns flex">
         <button>Get a Started</button>
         <button>Browse all feature</button>
-    </div>
+    </div> */}
 </section>
 <section className="sec-2">
     <div className="sec2-top container">
-        <h2 className='title'>Appkube Primary Business Goals</h2>
+        <h2 className='sec-title tc'>Appkube Primary Business Goals</h2>
         {/* <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
             ultrices metus morbi aliquet vel.</p> */}
     </div>
@@ -148,10 +147,7 @@ export default function Home() {
     </div>
 </section>
 <section className="sec-4 container">
-    <h2 className="title">
-        Powerful Cloud Native ISV Solutions to accelerate your cloud adoption
-    </h2>
-    <img src="AppKube.svg" alt="" />
+
     {/* <div className="sec4-con">
 
     </div>

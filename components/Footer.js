@@ -15,37 +15,37 @@ const Footer = () => {
             </div>
 
             <ul>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Blog post</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Pricing ingle</a></li>
+                <h6>USA</h6>
+<li>300 Alexander Park Drive,</li>
+
+<li>Suite 215,</li>
+
+<li>Princeton, NJ 08540</li>
+
+<li>Sales: +1 (609) 608 0388 X 1</li>
+
+<li>Office: +1 (609) 608 0388</li>
             </ul>
 
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Careers single</a></li>
-                <li><a href="#">Request a demo</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
-            </ul>
+
 
             <ul>
-                <li><a href="#">Utility Pages</a></li>
-                <li><a href="#">Style guide</a></li>
-                <li><a href="#">404 Not found</a></li>
-                <li><a href="#">Licenses</a></li>
-                <li><a href="#">Changelog</a></li>
+                <h6>INDIA</h6>
+<li>Synectiks,</li>
+
+<li>Level 6,</li>
+
+<li>NHeights, Phase 2, Hi-Tech City,</li>
+
+<li>Hyderabad, 500081</li>
+
+<li>Office: +91 (40) 4857 4411</li>
             </ul>
         </div>
 <div className="devider container"></div>
     <div className="sub-footer container flex">
-        <p>Copyright © Product | Designed by Synectiks It Consulting</p>
-    
+        <p>Copyright © Product | Designed by Synectiks Inc</p>
+
         <div className="social-media-icons flex">
             <img className="sm-icons" src="images/social media icons/ph_instagram-logo-fill.png" alt=""/>
             <img className="sm-icons" src="images/social media icons/mdi_twitter.png" alt=""/>
