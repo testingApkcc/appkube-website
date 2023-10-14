@@ -99,10 +99,13 @@ export default function Home() {
             <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" />
         </div>
     </div>
+    <div className='w-main'>
+
      <h2 className="sec-title tc">
         Powerful Cloud Native ISV Solutions to accelerate your cloud adoption
     </h2>
     <img src="AppKube.svg" alt="" />
+    </div>
 
     {/* <div className="sec-3-btns flex">
         <button>Get a Started</button>
@@ -110,34 +113,32 @@ export default function Home() {
     </div> */}
 </section>
 <section className="sec-2">
-    <div className="sec2-top container">
+    <div className="sec2-top w-main">
         <h2 className='sec-title tc'>Appkube Primary Business Goals</h2>
         {/* <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
             ultrices metus morbi aliquet vel.</p> */}
     </div>
 
     <div className="cards-con container">
-        <div className="cards-row flex">
-            <div className="card">
+        <div className="cards-row flex jc-c">
+            <div className="card w-card ">
                 <img  className="icon" src="images/icon.svg" alt="" />
                 <h2>Cloud Optimization</h2>
                 <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
                     ultricies convallis.</p>
             </div>
-
-            <div className="card">
+            <div className="card w-card ">
                 <img  className="icon" src="images/icon (1).png" alt="" />
                 <h2>Accelerated Cloud Adoption</h2>
                 <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
             </div>
-
-            <div className="card">
+            <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.svg" alt="" />
                 <h2>Accelerated Modernization</h2>
                 <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
                     ultricies convallis.</p>
             </div>
-             <div className="card">
+             <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.png" alt="" />
                 <h2>Become Hardware / Vendor / License Agnostic</h2>
                 <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
@@ -191,7 +192,7 @@ export default function Home() {
     </div> */}
 
 </section>
-<section className="sec-2">
+<section className="sec-2 w-main">
     <div className="sec2-top container">
         <h2 className='title'>Appkube Primary Business Goals</h2>
         <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis

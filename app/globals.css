@@ -173,12 +173,19 @@ il {
   width: 34rem;
 }
 
+.w-card{
+  width: 29vw;
+}
 .w-fluid {
   width: 100%;
 }
 
 .w-75 {
   width: 80vw;
+}
+
+.foot-width{
+  width: 17vw;
 }
 
 .bg-grad {
