@@ -3,6 +3,7 @@ import React from 'react'
 const features = () => {
   return (
   <>
+  <>
   <section id='devsecops'>
         <h1 className='title'>Unleash the Power of DevSecOps <br /> with Appkube</h1>
         <h3 className='subtitle'>Modernize Your Legacy Technology Stack and Accelerate <br /> Your Business Agility and Reliability</h3>
@@ -120,6 +121,7 @@ const features = () => {
           </div>
 
     </section>
+    </>
     </>
   )
 }

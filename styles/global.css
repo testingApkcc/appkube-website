@@ -29,7 +29,9 @@ p {
     width: 40%;
 }
 
-
+.pt {
+    padding-top: 1vw;
+}
 
 /* have to display block */
 
@@ -2220,6 +2222,14 @@ img {
     padding-right: 10%;
 }
 
+.wimg {
+    width: 250px;
+}
+
+.pp {
+    padding: 1vw;
+}
+
 .pl {
     padding-left: 10%;
 }
@@ -2282,4 +2292,3 @@ img {
 }
 
 /* App centric page */
-
