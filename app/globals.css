@@ -35,6 +35,7 @@
       hsl(245deg 57% 18%) 97%,
       hsl(247deg 59% 18%) 100%);
   font-size: 16px;
+  color: white;
 }
 
 
@@ -173,9 +174,10 @@ il {
   width: 34rem;
 }
 
-.w-card{
+.w-card {
   width: 29vw;
 }
+
 .w-fluid {
   width: 100%;
 }
@@ -184,7 +186,7 @@ il {
   width: 80vw;
 }
 
-.foot-width{
+.foot-width {
   width: 17vw;
 }
 
@@ -226,14 +228,3 @@ il {
   padding-top: 1.5vw;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-}
