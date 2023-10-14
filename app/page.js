@@ -60,8 +60,7 @@ export default function Home() {
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
         <div className="left">
             <h3 className='subheading tl'>Monitor, Troubleshoot, and Optimize Cloud Performance.</h3>
-            <p>Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra sed volutpat mauris.
-                Amet nisi amet commodo adipiscing ut imperdiet nunc.</p>
+            <p className='m-0'>Get user friendly scores of your Infra and Services and act on them.</p>
             {/* <button>Learn More</button> */}
         </div>
 
@@ -75,7 +74,9 @@ export default function Home() {
 </div>
     <div className="con-2 container">
         <div className="con2-left">
-            <div className="app-img"><img  className="app-view" src="images/App View 1.png" alt="" /></div>
+            <div className="app-img">
+                {/* <img  className="app-view" src="images/App View 1.png" alt="" /> */}
+                </div>
 
             <div className="left-bottom">
                 <h5 className="subheading tl">Get detailed View of <br/> Business and App Services</h5>
@@ -94,6 +95,7 @@ export default function Home() {
                 </p>
             </div>
             <div className="img-block">
+                <img src="images/App View 1.png" alt="" />
                 {/* <img src="group.svg" alt="" /> */}
             </div>
             <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" />
@@ -115,8 +117,6 @@ export default function Home() {
 <section className="sec-2">
     <div className="sec2-top w-main">
         <h2 className='sec-title tc'>Appkube Primary Business Goals</h2>
-        {/* <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
-            ultrices metus morbi aliquet vel.</p> */}
     </div>
 
     <div className="cards-con container">
@@ -148,48 +148,6 @@ export default function Home() {
     </div>
 </section>
 <section className="sec-4 container">
-
-    {/* <div className="sec4-con">
-
-    </div>
-
-    <div className="sec4-con2">
-        <div className="sec4-left-con">
-            <h1>Product Mail</h1>
-            <p>Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum consectetur.</p>
-
-            <div className="mail-box">
-
-                <h3>New Message</h3>
-
-                <div className="to">To <input type="text" /> CC BCC </div>
-
-                <hr />
-                <div className="Subject flex">
-                    <p>Subject</p> <input type="text" />
-                </div>
-                <hr />
-
-                <div className="from flex">
-                    <p>From</p> <input type="text" />
-                </div>
-                <hr />
-                <div className="gilss flex">
-                    <p>Gilsis</p>
-                </div>
-            </div>
-        </div>
-        <div className="sec4-right-con">
-            <h3>Product UI</h3>
-            <p>Honsectetur ejb jk m,que nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibendum
-                consectetur.</p>
-
-            <div className="sec4-img-con">
-                <img  src="images/ui-grid.png" alt="" />
-            </div>
-        </div>
-
-    </div> */}
 
 </section>
 <section className="sec-2 w-main">
@@ -239,158 +197,7 @@ export default function Home() {
         </div>
     </div>
 </section>
-{/* <section className="clints-sec">
-    <div className="clints-heading">
-        <h1>What our clients say</h1>
-        <p>Rmet facilisi arcu odio urna aenean erat. Pellentesque in vitae lobortis orci tincidunt facilisis.
-            Pulvinar
-            lacus ultricies turpis urna sapien.</p>
-    </div>
 
-    <div id="slide1" className="clint-cards">
-        <div className="c-card-1">
-            <div className="c-card c-card1">
-                <div className="clint-profile">
-                    <img  src="images/Avatar.png" alt="" />
-                    <div className="profile-info">
-                        <p>Cameron Williamson</p>
-                        <p>Web Designer</p>
-                    </div>
-                    <div className="profile-icons">
-                        <img  src="images/quotation.png" alt="" />
-                    </div>
-                </div>
-                <div className="clint-review">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cum perferendis sapiente.
-                        Ipsum blanditiis provident magnam perspiciatis!</p>
-                </div>
-
-            </div>
-            <div className="c-card-bg c-card-bg1">
-
-            </div>
-        </div>
-        <div className="c-card-1">
-            <div className="c-card">
-                <div className="clint-profile">
-                    <img  src="images/Avatar-2.png" alt="" />
-                    <div className="profile-info">
-                        <p>Esther Howard</p>
-                        <p>Web Developer</p>
-                    </div>
-                    <div className="profile-icons">
-                        <img  src="images/quotation.png" alt="" />
-                    </div>
-                </div>
-                <div className="clint-review">
-                    <p>At viverra enim enim sed turpis orci cursus. Imperdiet eros mauris sed sodales nisi interdum
-                        ac. Eu congue quis egestas donec lectus</p>
-                </div>
-
-            </div>
-            <div className="c-card-bg">
-
-            </div>
-        </div>
-        <div className="c-card-1">
-            <div className="c-card">
-                <div className="clint-profile">
-                    <img  src="images/Avatar-3.png" alt="" />
-                    <div className="profile-info">
-                        <p>Jenny Wilson</p>
-                        <p>UI/UX Designer</p>
-                    </div>
-                    <div className="profile-icons">
-                        <img  src="images/quotation.png" alt="" />
-                    </div>
-                </div>
-                <div className="clint-review">
-                    <p>Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis amet sit posuere sed sit.
-                        Aliquet suspendisse vitae placerat donec.</p>
-                </div>
-
-            </div>
-            <div className="c-card-bg">
-
-            </div>
-        </div>
-    </div>
-
-    <div id="left-btn" className="arrow-btns">
-        <div className="arrow-btn">
-            <img  src="images/arrow-right.png" alt="" />
-        </div>
-
-        <div id="right-btn" className="arrow-btn">
-            <img  src="images/arrow-right-1.png" alt="" />
-        </div>
-    </div>
-
-</section> */}
-{/* <section className="discord-sec">
-    <img  id="mountain" src="discord-images/Vector.png" alt="" />
-
-    <img  style={{position: "absolute", bottom: "0", left: "20%"}} src="sparkles/ellipse20.png" className="discord-ellipe" alt="" />
-
-    <div className="discord-main">
-        <div className="discord-logo">
-            <img  src="discord-images/logo-2.png" alt="" />
-        </div>
-
-        <h1>Join the community</h1>
-        <p>Join our 400,000+ person community and contribute to a more <br/> private and decentralized internet.
-            Start for
-            free.</p>
-
-        <button className="join-btn">Join Discord</button>
-    </div>
-
-</section>
-<section className="news-sec">
-    <div className="news-header container">
-        <h1>AppKube in the news</h1>
-        <button className="browse-btn">Browse all news</button>
-    </div>
-
-    <div className="news-cards-con container">
-        <div className="news-card">
-            <div className="news-blank-con"></div>
-            <h6>AppKube is taking on Cloud Monitoring by betting on privacy</h6>
-            <p>Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras
-                turpis faucibus elit urna.</p>
-            <span className="line"></span>
-            <div className="news-date">
-                <p>February 8, 2023</p>
-                <button className="read-more-btn">Read more <img  src="images/arrow-right-1.png" alt="" /></button>
-            </div>
-        </div>
-
-        <div className="news-card">
-            <div className="news-blank-con"></div>
-            <h6>AppKube is taking on Cloud Monitoring by betting on privacy</h6>
-            <p>Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras
-                turpis faucibus elit urna.</p>
-            <span className="line"></span>
-            <div className="news-date">
-                <p>February 8, 2023</p>
-
-                <button className="read-more-btn">Read more <img  src="images/arrow-right-1.png" alt="" /></button>
-            </div>
-        </div>
-
-        <div className="news-card">
-            <div className="news-blank-con"></div>
-            <h6>AppKube is taking on Cloud Monitoring by betting on privacy</h6>
-            <p>Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus mauris augue pharetra cras
-                turpis faucibus elit urna.</p>
-            <span className="line"></span>
-            <div className="news-date">
-                <p>February 8, 2023</p>
-                <button className="read-more-btn">Read more <img  src="images/arrow-right-1.png" alt="" /> </button>
-            </div>
-        </div>
-    </div>
-</section> */}
     </>
   )
 }

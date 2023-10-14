@@ -81,8 +81,6 @@ svg.heading-arrows {
     text-align: center;
 }
 
-.subtitle {}
-
 .title-hero,
 .sub-heading {
     text-align: center;
@@ -581,7 +579,6 @@ main {
 
 
 .con-1 {
-
     height: 513px;
     border-radius: 10px;
     border: 1px solid var(--neutral-gray-500, #282D45);
@@ -622,7 +619,7 @@ main {
     align-items: flex-start;
     gap: 35px;
     text-align: start;
-    width: 40%;
+    width: 35vw;
 }
 
 .left h2 {
@@ -981,11 +978,12 @@ table p {
 }
 
 .img-block {
-    background-image: url('../public/group.svg');
+    background-image: url('/public/images/App View 1.png');
+    /* background-image: url('../public/group.svg'); */
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    width: 100%;
+    width: 150vw;
     height: 42vh;
     transform: scale(1.04) translateY(20px);
 }

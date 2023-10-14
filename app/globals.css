@@ -15,7 +15,7 @@
 :root {
   --width-main: 63.75vw;
   --title: 4rem;
-  --section-title: 3.5rem;
+  --section-title: 2.6rem;
   --subtitle: 2rem;
   --sub-heading: 2rem;
   --sm-card-heading: 1.5rem;
@@ -110,7 +110,7 @@ il {
   /* text-align: center; */
   font-style: normal;
   font-family: var(--inter);
-  margin: 25px auto;
+  /* margin: 25px auto; */
 }
 
 .sm-card-fnt {
@@ -227,4 +227,3 @@ il {
 .pl1 {
   padding-top: 1.5vw;
 }
-
