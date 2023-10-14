@@ -153,48 +153,38 @@ export default function Home() {
 </section>
 <section className="sec-2 w-main">
     <div className="sec2-top container">
-        <h2 className='title'>Appkube Primary Business Goals</h2>
-        <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
-            ultrices metus morbi aliquet vel.</p>
+        <h2 className='title'>Key Usecases</h2>
+        {/* <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
+            ultrices metus morbi aliquet vel.</p> */}
     </div>
 
     <div className="cards-con container">
-        <div className="cards-row flex">
-            <div className="card w-md">
+        <div className="cards-row flex jc-c">
+            <div className="card w-card ">
                 <img  className="icon" src="images/icon.svg" alt="" />
-                <h2>Appcentric Optimization</h2>
-                <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
+                <h2>Cloud Native App Development</h2>
+                <p>Appkube low code platform not only reduces the time and cost of building custom solution, it helps you to maximize your data revenue and data security.It’s a platform that provides peace of mind, governance, efficiency, and control and your long term flexibity and agility.</p>
+                <a href="Cloud-Native-App Development.pdf" target='_blank'>Know More</a>
             </div>
-            <div className="card w-md">
+            <div className="card w-card ">
                 <img  className="icon" src="images/icon (1).png" alt="" />
-                <h2>Cloud Native RAD Building BLock</h2>
-                <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
+                <h2>Cloud Optimization</h2>
+                <p>Appkube get a 360-degree view of your multi-cloud environment, complete with actionable insights, ML-powered recommendations, and automated actions for streamlined cloud operations</p>
+                 <a href="Cloud-Optimization.pdf" target='_blank'>Know More</a>
             </div>
-            <div className="card w-md">
+            <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.svg" alt="" />
-                <h2>SRE-Infra and App</h2>
-                <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
+                <h2>DevSecOps Transformation</h2>
+                <p>Appkube reduces the complexity of technology and cultural transformation. A platform that clearly lays the stages to achieve your DevSecOps maturity , delivers a one stop solutions for all your tooling needs supplemented by a pool of DevSecOps resources trained to operate at highest DevSecOps maturity model.</p>
+                 <a href="DevSecOps-TRANSFORMATION.pdf" target='_blank'>Know More</a>
             </div>
-             <div className="card w-md">
+             <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.png" alt="" />
-                <h2>DevSecops Tooling</h2>
-                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
+                <h2>Migration and Modernization</h2>
+                <p>Appkube reduces the complexity of cloud migration and transformation. A platform that automatically lays the backbone for cloud environment following best practices.</p>
+                 <a href="Cloud-Native-App Development.pdf" target='_blank'>Know More</a>
             </div>
-             <div className="card w-md">
-                <img  className="icon" src="images/icon-2.png" alt="" />
-                <h2>Application Modernizationc</h2>
-                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
-             <div className="card w-md">
-                <img  className="icon" src="images/icon-2.png" alt="" />
-                <h2>Become Hardware / Vendor / License Agnostic</h2>
-                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
-            </div>
+
         </div>
     </div>
 </section>

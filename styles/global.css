@@ -2001,14 +2001,8 @@ footer .logo img {
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
-
-    display: flex;
-    padding: 40px 30px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 19px;
+    padding: 0px 30px;
 }
-
 .news-letter h6 {
     color: var(--neutral-white-200, #F6F6F7);
 

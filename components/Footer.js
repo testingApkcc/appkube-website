@@ -37,7 +37,9 @@ Office: +91 (40) 4857 4411 <br />
         </div>
 <div className="devider container"></div>
     <div className="sub-footer container flex">
+        <div>
         <p>Copyright © Product | Designed by Synectiks INC</p>
+        </div>
 
         <div className="social-media-icons flex">
             <img className="sm-icons" src="images/social media icons/ph_instagram-logo-fill.png" alt=""/>
