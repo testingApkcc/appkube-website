@@ -55,7 +55,7 @@ export default function Home() {
     <img  className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
 </section>
 <section className="sec-3">
-    <h2 className='sec-title'>Gain complete insights into <br/> INFRA / APP / BUSINESS</h2>
+    <h2 className='subtitle'>Gain complete insights into <br/> INFRA / APP / BUSINESS</h2>
     <div className="con-1 container">
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
         <div className="left">
@@ -79,7 +79,7 @@ export default function Home() {
                 </div>
 
             <div className="left-bottom">
-                <h5 className="subheading tl">Get detailed View of <br/> Business and App Services</h5>
+                <h5 className="subheading ">Get detailed View of <br/> Business and App Services</h5>
                 <p className="con2-p">Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet
                     condimentum. Vulputate varius feugiat egestas congue </p>
             </div>
@@ -90,9 +90,10 @@ export default function Home() {
             <img  src="ellipse/ellipse-13.png" alt="" className="ellipse-13" />
 
             <div className="right-top">
-                <h4 className='subheading'>State of Application Security</h4>
-                <p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.
-                </p>
+                 {/* <h4 className='subheading'>State of Application Security</h4> */}
+                 <h4 className='subheading'>State of Application Security</h4>
+                {/*<p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.
+                </p> */}
             </div>
             <div className="img-block">
                 <img src="images/App View 1.png" alt="" />
@@ -116,31 +117,31 @@ export default function Home() {
 </section>
 <section className="sec-2">
     <div className="sec2-top w-main">
-        <h2 className='sec-title tc'>Appkube Primary Business Goals</h2>
+        <h2 className='sec-title tc'>Key Features</h2>
     </div>
 
     <div className="cards-con container">
         <div className="cards-row flex jc-c">
             <div className="card w-card ">
                 <img  className="icon" src="images/icon.svg" alt="" />
-                <h2>Cloud Optimization</h2>
+                <h2>App Centric Optimization</h2>
                 <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
                     ultricies convallis.</p>
             </div>
             <div className="card w-card ">
                 <img  className="icon" src="images/icon (1).png" alt="" />
-                <h2>Accelerated Cloud Adoption</h2>
+                <h2>SRE</h2>
                 <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
             </div>
             <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.svg" alt="" />
-                <h2>Accelerated Modernization</h2>
+                <h2>DevSecOps Tooling</h2>
                 <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
                     ultricies convallis.</p>
             </div>
              <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.png" alt="" />
-                <h2>Become Hardware / Vendor / License Agnostic</h2>
+                <h2>App Blocks</h2>
                 <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
                     ultricies convallis.</p>
             </div>
