@@ -183,7 +183,7 @@ il {
 }
 
 .pa {
-  padding: 3vw;
+  padding: 2vw 3vw;
 }
 
 @media (prefers-color-scheme: dark) {
