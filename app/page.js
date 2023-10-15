@@ -55,7 +55,7 @@ export default function Home() {
     <img  className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
 </section>
 <section className="sec-3">
-    <h2 className='subtitle'>Gain complete insights into <br/> INFRA / APP / BUSINESS</h2>
+    <h2 className='sec-title'>Gain complete insights into <br/> INFRA / APP / BUSINESS</h2>
     <div className="con-1 container">
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
         <div className="left">
@@ -157,7 +157,7 @@ export default function Home() {
 </section>
 <section className="sec-2 w-main">
     <div className="sec2-top container">
-        <h2 className='title'>Key Usecases</h2>
+        <h2 className='sec-title'>Key Usecases</h2>
         {/* <p>Apsum dolor sit amet consectetur. Aliquam elementum elementum in ultrices. Dui maecenas ut eros turpis
             ultrices metus morbi aliquet vel.</p> */}
     </div>
