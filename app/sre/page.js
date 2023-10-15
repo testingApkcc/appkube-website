@@ -6,27 +6,28 @@ const sreinfra = () => {
   <section id='devsecops'>
         <h1 className='title'>Empowering Enterprises with <br /> SRE Solutions</h1>
         <h3 className='subtitle'>Streamlining Multi-Cloud Hybrid Environments with AppKube</h3>
-        <a href="#" className='dev-btn'>explore appkube solutions</a>
+        {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
         <div className="hero">
         <img src="sreimages\SRE p1.svg" alt="" />
         </div>
          <wrapper>
-              <div className="flex-col-bg">
-          <div className="flex-col">
+          <div className="flex-col-bg ">
+          <div className="flex-col card-size bdr pa">
             <div className="fimageblock"><img src="sreimages\SRE P2.svg" alt="" /></div>
-            <div className="ftextblock">
-              <h4 className='section-title'> the Competitive Landscape</h4>
-              <p>Brief about the challenges faced by most enterprises such as competition, the introduction of new products, and the struggle to deliver speed, agility, flexibility, and better customer experience due to Legacy Application, Infrastructure, and IT Processes.</p>
+            <div className="">
+              <h4 className='subheading tl'>"The Challenge of Modern Enterprise Architecture"</h4>
+              <p>Brief about the need for modern microservices/serverless architecture in a multi-cloud hybrid environment. Explanation of the complexity in managing cost and SLAs across multiple clouds.</p>
             </div>
           </div>
-          <div className="flex-col">
+          <div className="flex-col card-size bdr pa">
             <div className="fimageblock"><img src="sreimages\SRE P3.svg" alt="" /></div>
-            <div className="ftextblock flexorder pr">
-              <h4 className='section-title'>Navigating the Competitive Landscape</h4>
-              <p>Brief about the challenges faced by most enterprises such as competition, the introduction of new products, and the struggle to deliver speed, agility, flexibility, and better customer experience due to Legacy Application, Infrastructure, and IT Processes.</p>
+            <div className="tl">
+              <h4 className='subheading tl'>"TThe Path to Simplified Cloud Management"</h4>
+             <p className='tl'>Detailing the necessity of the right tools to process data points in multi-cloud hybrid environments.</p>
             </div>
           </div>
-          </div>
+           </div>
+
          </wrapper>
          <h5 className='subtitle'>AppKube - Your Partner <br /> in Seamless Cloud Management</h5>
           <div className="comp-block">

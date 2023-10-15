@@ -8,7 +8,7 @@ const features = () => {
      <div>
          <h1 className='title tl'>"Are Your Cloud Expenses <br />spiraling Out of Control?"</h1>
         <h3 className='subtitle tl '>"Discover how Appkube <br />optimizes your cloud costs and <br />infrastructure for maximized ROI"</h3>
-        <a href="#" className='dev-btn'><sup>*</sup>Get Started</a>
+        {/* <a href="#" className='dev-btn'><sup>*</sup>Get Started</a> */}
      </div>
         <div className="hero">
         <img src="appcentric/cost optimization image p1.svg" alt="" />
@@ -80,7 +80,7 @@ const features = () => {
             <div className="imageblock"><img src="appcentric/cost optimization image p8.svg" alt="" /></div>
             <div className="textblock pl pr">
               <h4 className='section-title maddy'>"Ready to revolutionize your cloud infrastructure?"</h4>
-              <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a>
+              {/* <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a> */}
             </div>
           </div>
 
