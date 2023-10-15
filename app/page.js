@@ -125,25 +125,29 @@ export default function Home() {
             <div className="card w-card ">
                 <img  className="icon" src="images/icon.svg" alt="" />
                 <h2>App Centric Optimization</h2>
-                <p>Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
+                <p>BMost Enterprise land up excessive cloud CapEx/OpEx after few months of cloud adoption, because of two reasons:
+</p>
+<ul>
+    <li>Actual Vs Non-Actual Ratio</li>
+    <li>Resource Oversizing with Primitive Model</li>
+</ul>
+
+
             </div>
             <div className="card w-card ">
                 <img  className="icon" src="images/icon (1).png" alt="" />
                 <h2>SRE</h2>
-                <p>Worem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere</p>
+                <p>Enterprises today need to adopt modern microservices/serverless architecture in multi-cloud hybrid environment for business agility, scalability, and flexibility</p>
             </div>
             <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.svg" alt="" />
                 <h2>DevSecOps Tooling</h2>
-                <p>Dorem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
+                <p>As the enterprises are embracing modern cloud native application architecture, there is a paradigm shift of working of Developers/Security/Operations people. </p>
             </div>
              <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.png" alt="" />
                 <h2>App Blocks</h2>
-                <p>Yarem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum
-                    ultricies convallis.</p>
+                <p>AppKube platform delivers these common application blocks as reusable software components that compose few clouds native microservices delivered by cloud provider and includes lifecycle - the management, instrumentation, and operational management aspects.</p>
             </div>
         </div>
     </div>
