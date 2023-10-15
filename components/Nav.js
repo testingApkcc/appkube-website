@@ -8,7 +8,7 @@ const Nav = () => {
             <div className="logo">
                <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
             </div>
-            <div className="nav-links">
+            <div className="nav-links"> 
                 {/* <Link id="home" href="/">Home</Link> */}
                 {/* <Link className='dropdown' href="/devsecops">Devsecops  </Link>
                 <Link href="/appcentric">Appcentric</Link>
