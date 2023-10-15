@@ -47,7 +47,7 @@ const sreinfra = () => {
             <div className="imageblock"><img src="sreimages\SRE P4.svg" alt="" /></div>
           </div>
           <div className="comp-block">
-            <div className="textblock flexorder pr pl">
+            <div className="textblock pr">
               <p className='section-title'>Meeting & Exceeding Customer Expectations</p>
               <br/>
               <p>Detailing what customers are looking for in a cloud management platform and how AppKube fulfills these exceptations</p>
