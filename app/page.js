@@ -59,7 +59,7 @@ export default function Home() {
     <div className="con-1 container">
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
         <div className="left">
-            <h3 className='subheading tl'>Monitor, Troubleshoot, and Optimize Cloud Performance.</h3>
+            <h3 className='subheading tl'>Monitor, Troubleshoot, & Optimize Cloud Performance.</h3>
             <p className='m-0'>Get user friendly scores of your Infra and Services and act on them.</p>
             {/* <button>Learn More</button> */}
         </div>
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
         </div>
     </div>
-</section> 
+</section>
 <section className="sec-2 w-main">
     <div className="sec2-top container">
         <h2 className='sec-title'>Key Usecases</h2>
