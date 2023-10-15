@@ -4,14 +4,14 @@ const cloudnativew = () => {
   return (
   <>
   <section id='devsecops w-main'>
-    <div className="hero-appcentric w-main">
-     <div>
-         <h1 className='title tl'>"Empowering Enterprises with Efficient Cloud-Native Solutions"</h1>
+    <div className="df ai-c jc-c gp w-main">
+     <div className="w-75">
+         <h1 className='title cldf tl'>"Empowering Enterprises with Efficient Cloud-Native Solutions"</h1>
         <h3 className='subtitle tl '>"Accelerate your journey with AppKube, delivering
 high-quality,cost-effective, and flexible cloud-native microservices and serverless products."</h3>
         {/* <a href="#" className='dev-btn'><sup>*</sup>Get Started</a> */}
      </div>
-        <div className="hero">
+        <div className="w-75">
         <img src="cloudnative/appblockp1.svg" alt="" />
         </div>
     </div>

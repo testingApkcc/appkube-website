@@ -15,6 +15,7 @@
 :root {
   --width-main: 63.75vw;
   --title: 4rem;
+  --cld-native: 3.5rem;
   --section-title: 2.6rem;
   --subtitle: 2rem;
   --sub-heading: 2rem;
@@ -39,6 +40,12 @@
 }
 
 
+.gp{
+  gap: 60px;
+}
+.cldf{
+  font-size: var(--cld-native) !important;
+}
 .title {
   font-size: var(--title);
   font-style: normal;
