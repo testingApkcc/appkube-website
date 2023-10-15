@@ -62,6 +62,13 @@ section {
     display: flex;
 }
 
+.knw{
+    padding: 10px 20px;
+    border: 1px solid #282D45;
+    background-color: #151934;
+    border-radius: 3px;
+}
+
 .container {
     max-width: 1224px;
     margin-inline: auto;
