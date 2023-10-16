@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="container">
+    <footer className="w-75">
         <div className="footer-main">
             <div className="news-letter">
                 <div className="logo"> <img src="images/appkubelogo.png" alt=""/> </div>

@@ -8,13 +8,29 @@ const Nav = () => {
             <div className="logo">
                <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
             </div>
-            {/* <div className="nav-links">
-                <Link id="home" href="/">Home</Link>
-                <Link href="/appcentric">Appcentric</Link>
-                <Link href="/cloudnative">Cloud Native</Link>
-                <Link className='dropdown' href="/sre">Sre </Link>
-                <Link className='dropdown' href="/devsecops">Devsecops  </Link>
-            </div> */}
+            <div className="home">
+              <a href="/">Home</a>
+<div class="dropdown">
+  <button class="dropbtn fmenu">Features <AiFillCaretDown/></button>
+  <div class="dropdown-content">
+    <a href="/appcentric">Appcentric Optimization</a>
+    <a href="/cloudnative">Cloud Native App Blocks</a>
+    <a href="/sre">SRE - Infra & App</a>
+    <a href="/devsecops">DevSecOps Tooling</a>
+  </div>
+</div>
+</div>
+            {/* <ul className="nav-links">
+                <li id="home" href="/">Home</li>
+                <li className="features" href="#">Features
+                    <div className="sub-menu">
+                          <a href="/appcentric">Appcentric</a>
+                          <a href="/cloudnative">Cloud Native</a>
+                          <a className='dropdown' href="/sre">Sre </a>
+                          <a className='dropdown' href="/devsecops">Devsecops  </a>
+                    </div>
+                    </li>
+            </ul> */}
 
             {/* <button className="trial-btn">Free Trial</button> */}
         </nav>
