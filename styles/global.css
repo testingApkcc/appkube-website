@@ -279,11 +279,12 @@ ul.submenu li {
     border: none;
 }
 
-.home-menu{
+.home-menu {
     display: flex;
     gap: 25px;
     align-items: center;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -869,7 +870,7 @@ margin-bottom: 30px;
 }
 
 .left-bottom {
-    width: 400px;
+    /* width: 400px; */
     display: flex;
     flex-direction: column;
     gap: 20px;

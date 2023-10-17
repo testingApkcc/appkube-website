@@ -62,45 +62,23 @@ export default function Home() {
             <h3 className='subheading tl'>Monitor, Troubleshoot, & Optimize Cloud Performance.</h3>
              <div className="hero-img"> <img  src="environments.svg" alt="" />
              <p className='m-2 tc'>Get user friendly scores of your Infra and Services and act on them.</p></div>
-
             {/* <button>Learn More</button> */}
         </div>
-
-        {/* <div className="right">
-
-        </div> */}
         <img  className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
     </div>
 <div className="sec-3">
         <h2 className='sec-title tc maddy'>An App-centric Cloud Optimization platform that improves business reliability and reduce up to 90% cloud spend.</h2>
 </div>
-    <div className="con-2 container">
-       <div className="con2-left">
-            <div className="app-img">
-                <img  className="app-view" src="images/App View 1.png" alt="" />
-                </div>
-             <div className="left-bottom">
-                 <h5 className="subheading ">Get detailed View of <br/> Business and App Services</h5>
-
-            </div>
+   <div className="con-1 container">
+        <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
+        <div className="left w-main">
+            <h3 className='subheading tc'>Get detailed View of
+Business and App Services</h3>
+             <div className="hero-img"> <img  src="CostAnalytics.svg" alt="" />
+             <p className='m-2 tc'>Get user friendly scores of your Infra and Services and act on them.</p></div>
+            {/* <button>Learn More</button> */}
         </div>
-
-        {/* <div className="con2-right">
-
-            <img  src="ellipse/ellipse-13.png" alt="" className="ellipse-13" />
-
-            <div className="right-top"> */}
-                 {/* <h4 className='subheading'>State of Application Security</h4> */}
-                 {/* <h4 className='subheading'>State of Application Security</h4> */}
-                {/*<p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.
-                </p> */}
-            {/* </div> */}
-            {/* <div className="img-block"> */}
-                {/* <img src="images/App View 1.png" alt="" /> */}
-                {/* <img src="group.svg" alt="" /> */}
-            {/* </div> */}
-            {/* <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" /> */}
-        {/* </div> */}
+        <img  className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
     </div>
     <div className='w-main'>
 
@@ -140,15 +118,16 @@ export default function Home() {
                 <p>Enterprises today need to adopt modern microservices/serverless architecture in multi-cloud hybrid environment for business agility, scalability, and flexibility</p>
             </div>
             <div className="card w-card ">
-                <img  className="icon" src="images/icon-2.svg" alt="" />
-                <h2>DevSecOps Tooling</h2>
-                <p>As the enterprises are embracing modern cloud native application architecture, there is a paradigm shift of working of Developers/Security/Operations people. </p>
-            </div>
-             <div className="card w-card ">
                 <img  className="icon" src="images/icon-2.png" alt="" />
                 <h2>App Blocks</h2>
                 <p>AppKube platform delivers these common application blocks as reusable software components that compose few clouds native microservices delivered by cloud provider and includes lifecycle - the management, instrumentation, and operational management aspects.</p>
             </div>
+            <div className="card w-card ">
+                <img  className="icon" src="images/icon-2.svg" alt="" />
+                <h2>DevSecOps Tooling</h2>
+                <p>As the enterprises are embracing modern cloud native application architecture, there is a paradigm shift of working of Developers/Security/Operations people. </p>
+            </div>
+
         </div>
     </div>
 </section>
@@ -160,33 +139,35 @@ export default function Home() {
     </div>
 
     <div className="cards-con container">
-        <div className="cards-row flex jc-c">
-
-            <div className="card w-cards">
-                <img  className="icon" src="images/icon.svg" alt="" />
-                <h2>Cloud Native App Development</h2>
-                <p>Appkube low code platform not only reduces the time and cost of building custom solution, it helps you to maximize your data revenue and data security.It’s a platform that provides peace of mind, governance, efficiency, and control and your long term flexibity and agility.</p>
-                <a href="Cloud-Native-App Development.pdf" target='_blank' className='knw'>Know More</a>
-            </div>
-            <div className="card w-cards">
+                 <div className="cards-row flex jc-c">
+                     <div className="card w-card">
                 <img  className="icon" src="images/icon (1).png" alt="" />
                 <h2>Cloud Optimization</h2>
                 <p>Appkube get a 360-degree view of your multi-cloud environment, complete with actionable insights, ML-powered recommendations, and automated actions for streamlined cloud operations</p>
                  <a href="Cloud-Optimization.pdf" target='_blank' className='knw'>Know More</a>
-            </div></div>
-            <div className="cards-row flex jc-c">
-            <div className="card w-cards">
-                <img  className="icon" src="images/icon-2.svg" alt="" />
-                <h2>DevSecOps Transformation</h2>
-                <p>Appkube reduces the complexity of technology and cultural transformation. A platform that clearly lays the stages to achieve your DevSecOps maturity , delivers a one stop solutions for all your tooling needs supplemented by a pool of DevSecOps resources trained to operate at highest DevSecOps maturity model.</p>
-                 <a href="DevSecOps-TRANSFORMATION.pdf" target='_blank' className='knw'>Know More</a>
-            </div>
-             <div className="card w-cards">
+                     </div>
+                       <div className="card w-card">
                 <img  className="icon" src="images/icon-2.png" alt="" />
                 <h2>Migration and Modernization</h2>
                 <p>Appkube reduces the complexity of cloud migration and transformation. A platform that automatically lays the backbone for cloud environment following best practices.</p>
                  <a href="Cloud-Native-App Development.pdf" target='_blank' className='knw'>Know More</a>
             </div>
+
+                  </div>
+            <div className="cards-row flex jc-c">
+           <div className="card w-card">
+                        <img  className="icon" src="images/icon.svg" alt="" />
+                        <h2>Cloud Native App Development</h2>
+                        <p>Appkube low code platform not only reduces the time and cost of building custom solution, it helps you to maximize your data revenue and data security.It’s a platform that provides peace of mind, governance, efficiency, and control and your long term flexibity and agility.</p>
+                        <a href="Cloud-Native-App Development.pdf" target='_blank' className='knw'>Know More</a>
+                    </div>
+            <div className="card w-card">
+                <img  className="icon" src="images/icon-2.svg" alt="" />
+                <h2>DevSecOps Transformation</h2>
+                <p>Appkube reduces the complexity of technology and cultural transformation. A platform that clearly lays the stages to achieve your DevSecOps maturity , delivers a one stop solutions for all your tooling needs supplemented by a pool of DevSecOps resources trained to operate at highest DevSecOps maturity model.</p>
+                 <a href="DevSecOps-TRANSFORMATION.pdf" target='_blank' className='knw'>Know More</a>
+            </div>
+
 
         </div>
     </div>
