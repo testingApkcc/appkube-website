@@ -13,7 +13,7 @@
 }
 
 :root {
-  --width-main: 63.75vw;
+  --width-main: 65.75vw;
   --title: 4rem;
   --cld-native: 3.5rem;
   --section-title: 2.6rem;
@@ -144,6 +144,10 @@ il {
 
 .container {
   max-width: 63.774rem;
+}
+
+.ht{
+  height: 21vw;
 }
 
 .bdr {
