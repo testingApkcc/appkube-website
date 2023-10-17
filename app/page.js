@@ -133,7 +133,7 @@ export default function Home() {
                 <div className="cards-con">
                     <div className="cards-row flex jc-c">
                         <div className="card-detail">
-                            <div className="card w-card ht">
+                            <div className="card w-card hts">
                                 <img className="icon" src="images/icon (1).png" alt="" />
                                 <h2>Cloud Optimization</h2>
                                 <p>AppKube streamlines cloud spending, aligning it with business objectives. It offers a comprehensive view of multi-cloud environments, ML-driven recommendations, and cost-saving measures, resulting in substantial savings of up to 70%.</p>
@@ -143,7 +143,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="card-detail">
-                            <div className="card w-card ht">
+                            <div className="card w-card hts">
                                 <img className="icon" src="images/icon-2.png" alt="" />
                                 <h2>Migration and Modernization</h2>
                                 <p>AppKube simplifies cloud migration, reducing complexity and accelerating value delivery. With features like Accelerated Cloud Adoption and Automated Cost Control, it streamlines multicloud hybrid adoption for efficiency and cost-effectiveness.</p>
