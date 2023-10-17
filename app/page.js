@@ -166,7 +166,7 @@ export default function Home() {
                         </div>
                         <div className="card-detail">
                             <div className="card w-card ht">
-                                <img className="icon" src="images/icon-2.svg" alt="" />
+                                <img className="icon" src="images/devsecopstooling.svg" alt="" />
                                 <h2>DevSecOps Transformation</h2>
                                 <p>AppKube expedites technology and cultural transformation through a comprehensive DevSecOps solution. With tool-based discovery, a complete tooling catalog, and cloud-native ISV solutions, it simplifies the journey towards DevSecOps maturity, enhancing speed, reliability, and cost-effectiveness.</p>
                             </div>
