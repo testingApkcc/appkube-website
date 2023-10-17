@@ -80,8 +80,8 @@ export default function Home() {
 
             <div className="left-bottom">
                 <h5 className="subheading ">Get detailed View of <br/> Business and App Services</h5>
-                <p className="con2-p">Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet
-                    condimentum. Vulputate varius feugiat egestas congue </p>
+                {/* <p className="con2-p">Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet
+                    condimentum. Vulputate varius feugiat egestas congue </p> */}
             </div>
         </div>
 

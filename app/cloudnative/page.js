@@ -62,7 +62,8 @@ Emphasize delivering products in a unified way across different clouds.
           </div>
            </div>
 
-  <div className="comp-block w-main bg-gra-invert">
+  <div className="comp-block w-main bg-gra-invert">Get detailed View of
+Business and App Services
     <div className="textblock ">
               <h4 className='section-title maddy'>"Reap the Rewards with AppKube"</h4>
               {/* <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a> */}
