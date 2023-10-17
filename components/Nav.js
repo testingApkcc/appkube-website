@@ -8,16 +8,17 @@ const Nav = () => {
             <div className="logo">
                <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
             </div>
-            <div className="home">
+            <div className="home-menu">
               <a href="/">Home</a>
-<div class="dropdown">
-  <button class="dropbtn fmenu">Features <AiFillCaretDown/></button>
-  <div class="dropdown-content">
+<div className="dropdown">
+  <button className="dropbtn fmenu">Features <AiFillCaretDown/></button>
+  <div className="dropdown-content">
     <a href="/appcentric">Appcentric Optimization</a>
     <a href="/cloudnative">Cloud Native App Blocks</a>
     <a href="/sre">SRE - Infra & App</a>
     <a href="/devsecops">DevSecOps Tooling</a>
   </div>
+  {/* <a href="">Contact</a> */}
 </div>
 </div>
             {/* <ul className="nav-links">

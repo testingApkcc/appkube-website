@@ -114,10 +114,8 @@ p,
 ul,
 il {
   color: #8F9BB7;
-  /* text-align: center; */
   font-style: normal;
   font-family: var(--inter);
-  /* margin: 25px auto; */
 }
 
 .sm-card-fnt {
@@ -240,6 +238,12 @@ il {
 }
 .p{
   padding: 2vw;
+}
+.mb-0{
+  margin-bottom: 0 !important;
+}
+.mt-0{
+  margin-top: 0 !important;
 }
 footer{
   display: flex;

@@ -9,7 +9,7 @@ export default function Home() {
     <img  className="ellipse1" src="images/ellipse.png" alt="" />
     <div className="container">
         <div className="headings flex">
-            <h1 className='title'> Discover
+            <h1 className='title mt-0'> Discover
                 <svg className="heading-arrows" xmlns="http://www.w3.org/2000/svg" width="60" height="60"
                     viewBox="0 0 60 60" fill="none">
                     <g clipPath="url(#clip0_310_19)">
@@ -39,7 +39,7 @@ export default function Home() {
                 </svg>
                 Optimize
             </h1>
-            <h2 className='subtitle'>We Discover Infrastructure, Corelate With <br/>Business,  Optimize With Container / Serverless Platform</h2>
+            <h2 className='subtitle mt-0'>We Discover Infrastructure, Corelate With <br/>Business,  Optimize With Container / Serverless Platform</h2>
         </div>
 
         {/* <div className="sec-1-btns flex">
@@ -48,59 +48,59 @@ export default function Home() {
         </div> */}
 
         <div className="hero-img">
-            <img  src="images/image-1.png" alt=""/>
+            <img  src="SpendAnalytics.svg" alt=""/>
         </div>
     </div>
 
     <img  className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
 </section>
 <section className="sec-3">
-    <h2 className='sec-title'>Gain complete insights into <br/> INFRA / APP / BUSINESS</h2>
+    <h2 className='sec-title'>Gain complete insights into INFRA / APP / BUSINESS</h2>
     <div className="con-1 container">
         <img  className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
-        <div className="left">
+        <div className="left w-main">
             <h3 className='subheading tl'>Monitor, Troubleshoot, & Optimize Cloud Performance.</h3>
-            <p className='m-0'>Get user friendly scores of your Infra and Services and act on them.</p>
+             <div className="hero-img"> <img  src="environments.svg" alt="" />
+             <p className='m-2 tc'>Get user friendly scores of your Infra and Services and act on them.</p></div>
+
             {/* <button>Learn More</button> */}
         </div>
 
-        <div className="right">
-            <img  src="images/image 2.png" alt="" />
-        </div>
+        {/* <div className="right">
+
+        </div> */}
         <img  className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
     </div>
 <div className="sec-3">
         <h2 className='sec-title tc maddy'>An App-centric Cloud Optimization platform that improves business reliability and reduce up to 90% cloud spend.</h2>
 </div>
     <div className="con-2 container">
-        <div className="con2-left">
+       <div className="con2-left">
             <div className="app-img">
-                {/* <img  className="app-view" src="images/App View 1.png" alt="" /> */}
+                <img  className="app-view" src="images/App View 1.png" alt="" />
                 </div>
+             <div className="left-bottom">
+                 <h5 className="subheading ">Get detailed View of <br/> Business and App Services</h5>
 
-            <div className="left-bottom">
-                <h5 className="subheading ">Get detailed View of <br/> Business and App Services</h5>
-                {/* <p className="con2-p">Prem ipsum dolor sit amet consectetur. Viverra sed dignissim risus aliquet
-                    condimentum. Vulputate varius feugiat egestas congue </p> */}
             </div>
         </div>
 
-        <div className="con2-right">
+        {/* <div className="con2-right">
 
             <img  src="ellipse/ellipse-13.png" alt="" className="ellipse-13" />
 
-            <div className="right-top">
+            <div className="right-top"> */}
                  {/* <h4 className='subheading'>State of Application Security</h4> */}
-                 <h4 className='subheading'>State of Application Security</h4>
+                 {/* <h4 className='subheading'>State of Application Security</h4> */}
                 {/*<p>Tellus et adipiscing sit sit mauris pharetra bibendum. Ligula massa netus nulla ultricies purus.
                 </p> */}
-            </div>
-            <div className="img-block">
-                <img src="images/App View 1.png" alt="" />
+            {/* </div> */}
+            {/* <div className="img-block"> */}
+                {/* <img src="images/App View 1.png" alt="" /> */}
                 {/* <img src="group.svg" alt="" /> */}
-            </div>
-            <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" />
-        </div>
+            {/* </div> */}
+            {/* <img  src="ellipse/ellipse-14.png" alt="" className="ellipse-14" /> */}
+        {/* </div> */}
     </div>
     <div className='w-main'>
 
