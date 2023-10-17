@@ -282,14 +282,14 @@ ul.submenu li {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #151934;
+    background-color: #f5f5f5;
     min-width: 17vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #F6F6F7;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
