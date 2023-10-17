@@ -145,7 +145,7 @@ export default function Home() {
                         <div className="card-detail">
                             <div className="card w-card hts">
                                 <img className="icon" src="images/modernization.svg" alt="" />
-                                <h2>Migration and Modernization</h2>
+                                <h2>Migration & Modernization</h2>
                                 <p>AppKube simplifies cloud migration, reducing complexity and accelerating value delivery. With features like Accelerated Cloud Adoption and Automated Cost Control, it streamlines multicloud hybrid adoption for efficiency and cost-effectiveness.</p>
                             </div>
                             <div className="carfd-btn">
@@ -172,6 +172,11 @@ export default function Home() {
                             </div>
                             <div className="carfd-btn">
                                 <a href="DevSecOps-TRANSFORMATION.pdf" target='_blank' className='knw'>Know More</a>
+                            </div>
+                        </div>
+                        <div className="">
+                            <div className="w-cio" mb-1 >
+                                <img src="images/cio.svg" alt="" />
                             </div>
                         </div>
                     </div>
