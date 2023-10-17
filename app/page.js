@@ -100,12 +100,12 @@ export default function Home() {
                 <div className="cards-con">
                     <div className="cards-row flex jc-c">
                         <div className="card w-card card-detail">
-                            <img className="icon" src="images/icon (1).png" alt="" />
+                            <img className="icon" src="images/appcentricoptimization.svg" alt="" />
                             <h2>App Centric Optimization</h2>
                             <p>AppKube is your key to cost-effective, secure, and efficient cloud management. With precise discovery analysis and business-centric insights, it helps enterprises to optimize cloud resources, reduce excessive costs, and enhance reliability.</p>
                         </div>
                         <div className="card w-card card-detail">
-                            <img className="icon" src="images/icon-2.png" alt="" />
+                            <img className="icon" src="images/icon-2.svg" alt="" />
                             <h2>SRE</h2>
                             <p>AppKube simplifies multi-cloud management, optimizing operations and costs with real-time insights and AI-driven solutions.</p>
                         </div>
@@ -118,7 +118,7 @@ export default function Home() {
                             <p>AppKube accelerates cloud-native development with reusable application blocks and streamlined service management. It enables rapid product delivery, reduces coding efforts, and simplifies legacy application migration.</p>
                         </div>
                         <div className="card w-card card-detail">
-                            <img className="icon" src="images/icon-2.svg" alt="" />
+                            <img className="icon" src="images/devsecopstooling.svg" alt="" />
                             <h2>DevSecOps Tooling</h2>
                             <p>AppKube drives enterprise agility and competitiveness by unifying Developer, Security, and Operations teams within one platform. It accelerates project execution by 50%, simplifies the adoption of modern cloud-native services, and fosters a DevSecOps culture.</p>
                         </div>
@@ -134,7 +134,7 @@ export default function Home() {
                     <div className="cards-row flex jc-c">
                         <div className="card-detail">
                             <div className="card w-card hts">
-                                <img className="icon" src="images/icon (1).png" alt="" />
+                                <img className="icon" src="images/cloudoptimization.svg" alt="" />
                                 <h2>Cloud Optimization</h2>
                                 <p>AppKube streamlines cloud spending, aligning it with business objectives. It offers a comprehensive view of multi-cloud environments, ML-driven recommendations, and cost-saving measures, resulting in substantial savings of up to 70%.</p>
                             </div>
@@ -144,7 +144,7 @@ export default function Home() {
                         </div>
                         <div className="card-detail">
                             <div className="card w-card hts">
-                                <img className="icon" src="images/icon-2.png" alt="" />
+                                <img className="icon" src="images/modernization.svg" alt="" />
                                 <h2>Migration and Modernization</h2>
                                 <p>AppKube simplifies cloud migration, reducing complexity and accelerating value delivery. With features like Accelerated Cloud Adoption and Automated Cost Control, it streamlines multicloud hybrid adoption for efficiency and cost-effectiveness.</p>
                             </div>
@@ -156,7 +156,7 @@ export default function Home() {
                     <div className="cards-row flex jc-c">
                         <div className="card-detail">
                             <div className="card w-card ht">
-                                <img className="icon" src="images/icon.svg" alt="" />
+                                <img className="icon" src="images/cloudnative.svg" alt="" />
                                 <h2>Cloud Native App Development</h2>
                                 <p>AppKube speeds up custom software development, cutting costs and technical debt. It offers Cloud Native reusable application blocks and Readymade ISV solutions for streamlined development while enhancing data security and revenue. AppKube provides flexibility, control, and efficiency for tailored solutions.</p>
                             </div>
