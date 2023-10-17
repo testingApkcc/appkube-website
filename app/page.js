@@ -161,25 +161,27 @@ export default function Home() {
 
     <div className="cards-con container">
         <div className="cards-row flex jc-c">
-            <div className="card w-card ">
+
+            <div className="card w-cards">
                 <img  className="icon" src="images/icon.svg" alt="" />
                 <h2>Cloud Native App Development</h2>
                 <p>Appkube low code platform not only reduces the time and cost of building custom solution, it helps you to maximize your data revenue and data security.It’s a platform that provides peace of mind, governance, efficiency, and control and your long term flexibity and agility.</p>
                 <a href="Cloud-Native-App Development.pdf" target='_blank' className='knw'>Know More</a>
             </div>
-            <div className="card w-card ">
+            <div className="card w-cards">
                 <img  className="icon" src="images/icon (1).png" alt="" />
                 <h2>Cloud Optimization</h2>
                 <p>Appkube get a 360-degree view of your multi-cloud environment, complete with actionable insights, ML-powered recommendations, and automated actions for streamlined cloud operations</p>
                  <a href="Cloud-Optimization.pdf" target='_blank' className='knw'>Know More</a>
-            </div>
-            <div className="card w-card ">
+            </div></div>
+            <div className="cards-row flex jc-c">
+            <div className="card w-cards">
                 <img  className="icon" src="images/icon-2.svg" alt="" />
                 <h2>DevSecOps Transformation</h2>
                 <p>Appkube reduces the complexity of technology and cultural transformation. A platform that clearly lays the stages to achieve your DevSecOps maturity , delivers a one stop solutions for all your tooling needs supplemented by a pool of DevSecOps resources trained to operate at highest DevSecOps maturity model.</p>
                  <a href="DevSecOps-TRANSFORMATION.pdf" target='_blank' className='knw'>Know More</a>
             </div>
-             <div className="card w-card ">
+             <div className="card w-cards">
                 <img  className="icon" src="images/icon-2.png" alt="" />
                 <h2>Migration and Modernization</h2>
                 <p>Appkube reduces the complexity of cloud migration and transformation. A platform that automatically lays the backbone for cloud environment following best practices.</p>

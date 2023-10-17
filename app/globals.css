@@ -185,6 +185,10 @@ il {
   width: 29vw;
 }
 
+.w-cards{
+  width: 25vw;
+}
+
 .w-fluid {
   width: 100%;
 }
