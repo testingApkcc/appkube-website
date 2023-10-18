@@ -179,7 +179,13 @@ il {
 .w-main {
   width: var(--width-main);
 }
+.mx{
+  margin: 0 auto;
+}
 
+.w-45{
+  width: 45vw;
+}
 .w-md {
   width: 25vw;
 }
@@ -253,6 +259,9 @@ il {
 }
 .mt-0{
   margin-top: 0 !important;
+}
+.mt-1{
+  margin-top: 65px;
 }
 footer{
   display: flex;

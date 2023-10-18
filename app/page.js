@@ -55,7 +55,7 @@ export default function Home() {
                 <img className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
             </section>
             <section className="sec-3">
-                <h2 className='sec-title'>Gain complete insights into INFRA / APP / BUSINESS</h2>
+                <h2 className='sec-title mt-1'>Gain complete insights into INFRA / APP / BUSINESS</h2>
                 <div className="con-1 container">
                     <img className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
                     <div className="left w-main">
@@ -81,11 +81,12 @@ export default function Home() {
                     <img className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
                 </div>
                 <div className='w-main'>
-
-                    <h2 className="sec-title tc">
+                    <h2 className="sec-title tc mt-1 ">
                         Powerful Cloud Native ISV Solutions to accelerate your cloud adoption
                     </h2>
-                    <img src="AppKube.svg" alt="" />
+                    <div className="w-45 mx">
+                        <img src="Base.svg" alt="" />
+                    </div>
                 </div>
 
                 {/* <div className="sec-3-btns flex">
