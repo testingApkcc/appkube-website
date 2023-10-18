@@ -37,6 +37,8 @@
       hsl(247deg 59% 18%) 100%);
   font-size: 16px;
   color: white;
+  --gadient: rgb(114, 21, 255);
+    background: radial-gradient(circle, rgba(114, 21, 255, 1) 0%, rgba(7, 12, 39, 1) 100%, rgba(255, 255, 255, 1) 100%);
 }
 
 
