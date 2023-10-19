@@ -297,3 +297,12 @@ footer {
 .w-90{
   width: 85vw;
 }
+.my{
+  margin: 20px 0;
+}
+.form{
+  margin: 0 auto;
+}
+.form-field{
+  margin: 10px 0;
+}
