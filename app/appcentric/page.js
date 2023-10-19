@@ -6,7 +6,7 @@ const features = () => {
       <section id='devsecops w-main'>
         <div className="hero-appcentric ai-c w-main">
           <div>
-            <h1 className='title cldf tl'>"Are Your Cloud Expenses <br />spiraling Out of Control?"</h1>
+            <h1 className='title cldf tl'>"Are Your Cloud Expenses spiraling Out of Control?"</h1>
             <h3 className='subtitle tl '>"Discover how Appkube <br />optimizes your cloud costs and <br />infrastructure for maximized ROI"</h3>
             {/* <a href="#" className='dev-btn'><sup>*</sup>Get Started</a> */}
           </div>
