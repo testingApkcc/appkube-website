@@ -27,7 +27,9 @@ p {
 
 .w-cio {
     width: 66vw !important;
-}.header-hr{
+}
+
+.header-hr {
     /*
     * Created with https://www.css-gradient.com
     * Gradient link: https://www.css-gradient.com/?c1=7215ff&c2=070c27&gt=r&gd=dcc
@@ -143,7 +145,7 @@ button {
 a:hover {
     color: #fff;
     transition: 0.3s ease-in-out;
-
+    background-color: #222852;
 }
 
 button {
@@ -2134,7 +2136,13 @@ footer .logo img {
     flex-direction: column;
     align-items: flex-start;
     gap: 35px;
-    padding: 0px 30px;
+    background-color: #0E1330;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.news-letters {
+    padding: 20px 30px;
 }
 
 .news-letter h6 {

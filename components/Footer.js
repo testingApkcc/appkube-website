@@ -3,9 +3,10 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className="w-75 mt-1">
+            <div className="logo"> <img src="images/appkubelogo.png" alt="" /> </div>
             <div className="footer-main">
-                <div className="news-letter">
-                    <div className="logo"> <img src="images/appkubelogo.png" alt="" /> </div>
+                <div className="news-letter bdr mr">
+
                     <h6>Subscribe to our newsletter</h6>
                     <div className="email">
                         <input placeholder="Enter your email" className="email-input" type="email" />

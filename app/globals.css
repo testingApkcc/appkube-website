@@ -38,16 +38,18 @@
   font-size: 16px;
   color: white;
   --gadient: rgb(114, 21, 255);
-    background: radial-gradient(circle, rgba(114, 21, 255, 1) 0%, rgba(7, 12, 39, 1) 100%, rgba(255, 255, 255, 1) 100%);
+  background: radial-gradient(circle, rgba(114, 21, 255, 1) 0%, rgba(7, 12, 39, 1) 100%, rgba(255, 255, 255, 1) 100%);
 }
 
 
-.gp{
+.gp {
   gap: 60px;
 }
-.cldf{
+
+.cldf {
   font-size: var(--cld-native) !important;
 }
+
 .title {
   font-size: var(--title);
   font-style: normal;
@@ -148,16 +150,16 @@ il {
   max-width: 63.774rem;
 }
 
-.ht{
+.ht {
   height: 20.2vw;
 }
-.hts{
+
+.hts {
   height: 18.7vw;
 }
 
 .bdr {
-  border: 1px solid #323759;
-  border-radius: 10px;
+  border: 1px solid var(--neutral-gray-500, #282D45);
 }
 
 .df {
@@ -179,13 +181,15 @@ il {
 .w-main {
   width: var(--width-main);
 }
-.mx{
+
+.mx {
   margin: 0 auto;
 }
 
-.w-45{
+.w-45 {
   width: 45vw;
 }
+
 .w-md {
   width: 25vw;
 }
@@ -198,7 +202,7 @@ il {
   width: 29vw;
 }
 
-.w-cards{
+.w-cards {
   width: 25vw;
 }
 
@@ -251,19 +255,31 @@ il {
 .pl1 {
   padding-top: 1.5vw;
 }
-.p{
+
+.p {
   padding: 2vw;
 }
-.mb-0{
+
+.mb-0 {
   margin-bottom: 0 !important;
 }
-.mt-0{
+
+.mt-0 {
   margin-top: 0 !important;
 }
-.mt-1{
+
+.mt-1 {
   margin-top: 65px;
 }
-footer{
+.mr{
+  margin-right: 25px;
+}
+
+.carfd-btn>a.knw:hover {
+  background-color: #222852 !important;
+}
+
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
