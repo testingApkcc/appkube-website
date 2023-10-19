@@ -6,7 +6,7 @@ const Nav = () => {
       <header>
         <nav className="flex w-main">
           <div className="logo">
-            <a href="/"><img src="images/appkubelogo.png" alt="" /></a>
+            <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
           </div>
           {/* <div className="home-menu">
             <a href="/">Home</a>
