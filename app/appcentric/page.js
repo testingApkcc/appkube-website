@@ -29,7 +29,7 @@ const features = () => {
             <div className="imageblock"><img src="appcentric/cost optimization image p2.svg" alt="" /></div>
           </div>
           <div className="flex-col-bg w-main">
-            <div className="flex-col bg-grad card-size bdr pa">
+            <div className="flex-col bg-grad card-size bdr br-rds pa">
               <div className="fimageblock"><img src="appcentric/cost optimization image p3.svg" alt="" /></div>
               <div className="">
                 <h4 className='subheading tl'>"Unlocking Efficiency & Modernization"</h4>
@@ -43,7 +43,7 @@ const features = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex-col bg-grad card-size bdr pa">
+            <div className="flex-col bg-grad card-size bdr br-rds pa">
               <div className="fimageblock"><img src="appcentric/cost optimization image p4.svg" alt="" /></div>
               <div className="tl">
                 <h4 className='subheading tl'>"The Real-World Impact on Cloud Expenditure"</h4>
@@ -53,21 +53,21 @@ const features = () => {
           </div>
         </div>
         <div className="flex-col-bg mt-1 br-rds gp">
-          <div className="flex-col  bg-grady bdr w-main pp">
+          <div className="flex-col  bg-grady bdr br-rds w-main pp">
             <div className="wimg"><img src="appcentric/cost optimization image p5.svg" alt="" /></div>
             <div className="ftextblock">
               <h4 className='sm-card-fnt'>"Appkube: Your Cloud Optimization Specialist"</h4>
               <p>How Appkube identifies key resource leakages, aligns infrastructure, gives business-cenric chargeback views, and pinpoints transformation opportunities</p>
             </div>
           </div>
-          <div className="flex-col  bg-grady bdr w-main pp">
+          <div className="flex-col  bg-grady bdr br-rds w-main pp">
             <div className="wimg"><img src="appcentric/cost optimization image p6.svg" alt="" /></div>
             <div className="ftextblock flexorder pr">
               <h4 className='sm-card-fnt'>"A New Take on Cloud Transformation"</h4>
               <p>The difference between Appkube's approach versus traditional methods, and the focus on effective transformations for cost benefits</p>
             </div>
           </div>
-          <div className="flex-col  bg-grady bdr w-main pp ">
+          <div className="flex-col  bg-grady bdr br-rds w-main pp ">
             <div className="wimg "><img className='pt' src="appcentric/cost optimization image p7.svg" alt="" /></div>
             <div className="ftextblock flexorder pr">
               <h4 className='sm-card-fnt'>"Achieve More with Less: Reliable and Cost - Effective"</h4>
