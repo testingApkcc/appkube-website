@@ -269,7 +269,10 @@ il {
 }
 
 .mt-1 {
-  margin-top: 65px;
+  margin-top: 65px !important;
+}
+.mt-sm{
+  margin-top: 45px !important;
 }
 .mr{
   margin-right: 25px;
@@ -289,5 +292,5 @@ footer {
   width: 36vw;
 }
 .gp{
-  gap: 2% !important;
+  gap: 3.5% !important;
 }
