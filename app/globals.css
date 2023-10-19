@@ -46,9 +46,6 @@
   gap: 60px;
 }
 
-.cldf {
-  font-size: var(--cld-native) !important;
-}
 
 .title {
   font-size: var(--title);
@@ -112,6 +109,9 @@
 
 nav {
   font-family: var(--inter);
+}
+.cldf {
+  font-size: var(--cld-native) !important;
 }
 
 p,
@@ -284,4 +284,10 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+}
+.w-36{
+  width: 36vw;
+}
+.gp{
+  gap: 2% !important;
 }

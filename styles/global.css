@@ -145,7 +145,7 @@ button {
 a:hover {
     color: #fff;
     transition: 0.3s ease-in-out;
-    background-color: #222852;
+    /* background-color: #222852; */
 }
 
 button {
@@ -2402,20 +2402,10 @@ img {
     display: flex;
     justify-content: center;
     /* padding: 3%; */
-    gap: 2%;
+    gap: 5%;
     /* background: linear-gradient(to right, #282D45, #0E1330); */
     /* background-image: linear-gradient(to left bottom, #101334, #111339, #13143f, #161344, #191349); */
-    background-image: linear-gradient(230deg,
-            hsl(235deg 53% 13%) 0%,
-            hsl(236deg 53% 14%) 47%,
-            hsl(237deg 54% 15%) 66%,
-            hsl(238deg 54% 15%) 78%,
-            hsl(239deg 53% 16%) 85%,
-            hsl(240deg 53% 16%) 90%,
-            hsl(242deg 55% 17%) 93%,
-            hsl(243deg 56% 17%) 96%,
-            hsl(245deg 57% 18%) 97%,
-            hsl(247deg 59% 18%) 100%);
+
     width: 63.75vw;
 }
 
@@ -2424,4 +2414,20 @@ img {
     display: flex;
 }
 
+.bg-grady{
+    background-image: linear-gradient(230deg,
+                hsl(235deg 53% 13%) 0%,
+                hsl(236deg 53% 14%) 47%,
+                hsl(237deg 54% 15%) 66%,
+                hsl(238deg 54% 15%) 78%,
+                hsl(239deg 53% 16%) 85%,
+                hsl(240deg 53% 16%) 90%,
+                hsl(242deg 55% 17%) 93%,
+                hsl(243deg 56% 17%) 96%,
+                hsl(245deg 57% 18%) 97%,
+                hsl(247deg 59% 18%) 100%);
+}
 /* App centric page */
+.br-rds{
+    border-radius: 10px;
+}

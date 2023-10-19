@@ -33,7 +33,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.0339502976467!2d-74.63406322445526!3d40.319404061558004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e0d086e55555%3A0x78ec01235eef6d38!2s300%20Alexander%20Park%20Dr%20Suite%20215%2C%20Princeton%2C%20NJ%2008540%2C%20USA!5e0!3m2!1sen!2sin!4v1697605883234!5m2!1sen!2sin" width="250" height="250" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.0339502976467!2d-74.63406322445526!3d40.319404061558004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e0d086e55555%3A0x78ec01235eef6d38!2s300%20Alexander%20Park%20Dr%20Suite%20215%2C%20Princeton%2C%20NJ%2008540%2C%20USA!5e0!3m2!1sen!2sin!4v1697605883234!5m2!1sen!2sin" width="250" height="250" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15225.128789840157!2d78.3742678!3d17.4462023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e30f1841cd%3A0x4fc9c214c6c831c0!2sSYNECTIKS!5e0!3m2!1sen!2sin!4v1697317012963!5m2!1sen!2sin" width="250" height="250" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" /> */}
                 </div>
             </div>
