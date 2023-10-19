@@ -8,7 +8,7 @@ const Nav = () => {
           <div className="logo">
             <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
           </div>
-          {/* <div className="home-menu">
+          <div className="home-menu">
             <a href="/">Home</a>
             <div className="dropdown">
               <button className="dropbtn fmenu">Features <AiFillCaretDown /></button>
@@ -19,7 +19,8 @@ const Nav = () => {
                 <a href="/devsecops">DevSecOps Tooling</a>
               </div>
             </div>
-          </div> */}
+            <a href="/contact">Contact Us</a>
+          </div>
           {/* <ul className="nav-links">
                 <li id="home" href="/">Home</li>
                 <li className="features" href="#">Features
