@@ -29,7 +29,7 @@ const contact = () => {
                         <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='inpt'></textarea>
                     </div>
                     <div className='form-field df ai-c'>
-                        <input type="checkbox" name="" id="" />
+                        <input type="checkbox" name="chk" id="chk" />
                         <small className='clr-black'>You agree to our friendly <u> privacy policy</u></small>
                     </div>
                     <div>
