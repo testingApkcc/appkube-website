@@ -7,30 +7,30 @@ const contact = () => {
             <section>
 
 
-                <form action="" className='df fld gp jc-c'>
-                    <div className='df gp'>
-                        <div className='df fld'>
-                            <label htmlFor="">First Name</label>
-                            <input type="text" placeholder='First Name' />
+                <form action="" className='df fld gp jc-c formwidth'>
+                    <div className='df gp form-field'>
+                        <div className='df fld w-fluid '>
+                            <label htmlFor="firstname">First Name</label>
+                            <input type="text" id='firstname' name='firstname' placeholder='First Name' />
                         </div>
-                        <div className='df fld'>
-                            <label htmlFor="">Last Name</label>
-                            <input type="text" placeholder='Last Name' />
+                        <div className='df fld w-fluid '>
+                            <label htmlFor="lastname">Last Name</label>
+                            <input type="text" name='lastname' id='lastname' placeholder='Last Name' />
                         </div>
                     </div>
                     <div className='form-field df fld'>
-                        <label htmlFor="">Email</label>
-                        <input type="email" placeholder='Enter Email' />
+                        <label htmlFor="email">Email</label>
+                        <input type="email" id='email' name='email' placeholder='Enter Email' />
                     </div>
                     <div className='form-field df fld'>
-                        <label htmlFor="">Phone Number</label>
-                        <input type="tel" placeholder='Enter Phone Number' />
+                        <label htmlFor="phone">Phone Number</label>
+                        <input type="tel" id='phone' name='phone' placeholder='Enter Phone Number' />
                     </div>
                     <div className='form-field df fld'>
-                        <label htmlFor="">Message</label>
-                        <textarea name="" id="" cols="30" rows="10" placeholder='Message'></textarea>
+                        <label htmlFor="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder='Message'></textarea>
                     </div>
-                    <div className='form-field df gp'>
+                    <div className='form-field df ai-c'>
                         <input type="checkbox" name="" id="" />
                         <small>You agree to our friendly <u> privacy policy</u></small>
                     </div>
