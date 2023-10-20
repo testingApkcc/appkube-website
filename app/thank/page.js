@@ -2,7 +2,7 @@ import React from 'react'
 
 const thankyou = () => {
     return (
-        <section className='bg-grad'> <h1 className='subtitle mt-0 mb-0'>
+        <section className='bg-grad'> <h1 className='subtitle'>
 
             Thank you for your submission!
 
