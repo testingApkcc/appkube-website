@@ -5,7 +5,7 @@ const contact = () => {
     return (
         <>
             <section className='bgwhite'>
-                <form action="" form='gtform' id='gtform' className='df fld gp jc-c formwidth maddy'>
+                <form action="/thank" form='gtform' id='gtform' className='df fld gp jc-c formwidth maddy'>
                     <div className='df gp form-field'>
                         <div className='df fld w-fluid '>
                             <label htmlFor="firstname">First Name</label>
