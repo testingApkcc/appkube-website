@@ -306,3 +306,10 @@ footer {
 .form-field{
   margin: 10px 0;
 }
+.btn{
+  background-color: #7214FF;
+  border-radius: 50px;
+}
+.btn-primary{
+  padding: 15px 25px;
+}

@@ -3277,6 +3277,10 @@
 
 /* css for mobile responsive  */
 @media screen and (max-width:480px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
     .title {
         font-size: 1.75rem;
         line-height: 38px;
