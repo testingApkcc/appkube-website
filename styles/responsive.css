@@ -3285,6 +3285,10 @@
         width: 95%;
         margin: 25px 10px;
     }
+    .foot-width{
+        width: 100vw;
+    }
+    .
     .title {
         font-size: 1.75rem;
         line-height: 38px;
@@ -3385,6 +3389,9 @@
 
     section {
         margin: 0px;
+    }
+    .news-letter{
+        width: 60%;
     }
 
     #devsecops {

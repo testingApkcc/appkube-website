@@ -11,7 +11,7 @@ const Footer = () => {
 
                         <h6>Subscribe to our newsletter</h6>
                         <div className="email">
-                            <input placeholder="Enter your email" className="email-input" type="email" />
+                            <input placeholder="Enter your email" className="email-input" type="email" style={{color: '#fff !important'}} />
                         </div>
 
                         <button className="sub-btn">Subscribe</button>

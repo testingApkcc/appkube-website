@@ -373,3 +373,6 @@ input::placeholder{
   color: #1f1d1d81;
   padding: 10px 20px;
 }
+.email{
+  margin: 15px 10px;
+}
