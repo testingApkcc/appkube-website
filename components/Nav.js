@@ -17,9 +17,10 @@ const Nav = () => {
                 <a href="/cloudnative">Cloud Native App Blocks</a>
                 <a href="/sre">SRE - Infra & App</a>
                 <a href="/devsecops">DevSecOps Tooling</a>
-              </div>
-            </div>
-          </div> */}
+                </div>
+                </div>
+              </div> */}
+              <a href="/contact">Contact Us</a>
           {/* <ul className="nav-links">
                 <li id="home" href="/">Home</li>
                 <li className="features" href="#">Features

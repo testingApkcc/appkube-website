@@ -3274,3 +3274,136 @@
     /* discord section */
 
 }
+
+/* css for mobile responsive  */
+@media screen and (max-width:480px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .formwidth{
+        width: 95%;
+        margin: 25px 10px;
+    }
+    .foot-width{
+        width: 100vw;
+    }
+    .
+    .title {
+        font-size: 1.75rem;
+        line-height: 38px;
+        letter-spacing: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* text-align: center; */
+    }
+
+    .comp-block .pl {
+        padding: 0px;
+    }
+
+    .subtitle {
+        margin: 0px;
+        line-height: 30px;
+    }
+
+    .subtitle,
+    .subheading,
+    .section-title {
+        font-size: 1.3rem;
+        text-align: start;
+        line-height: 30px;
+    }
+
+    .dev-btn {
+        font-size: 0.8rem;
+    }
+
+    .flex-col-bg {
+        flex-direction: column;
+        width: auto;
+        gap: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .fimageblock {
+        width: auto;
+    }
+
+    .flex-col {
+        width: 100%;
+        gap: 0px;
+    }
+
+    .hero {
+        border-radius: 15px;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 25px 0;
+    }
+
+    .hero img {
+        border-radius: 0px;
+    }
+
+    section {
+        width: 100vw;
+        padding: 0px 10vw;
+        margin: 32px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .comp-block {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .textblock {
+        width: 100%;
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        padding-right: 0px;
+    }
+
+    .maddy {
+        margin: 0px;
+    }
+
+    .mt {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .mb {
+        margin-top: 20px;
+    }
+
+    section {
+        margin: 0px;
+    }
+    .news-letter{
+        width: 60%;
+    }
+
+    #devsecops {
+        margin-top: 30px;
+    }
+
+    .dev-btn {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+
+/* css for mobile responsive  */
