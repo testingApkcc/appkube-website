@@ -5,7 +5,8 @@ const contact = () => {
     return (
         <>
             <section className='bgwhite'>
-                <form action="/thank" form='gtform' id='gtform' className='df fld gp jc-c formwidth maddy'>
+                <form action="/thank" name='contact' method='POST' form='gtform' id='gtform' className='df fld gp jc-c formwidth maddy' data-netlify='true'>
+                    <input type="hidden" name='form-name' value='contact' />
                     <div className='df gp form-field'>
                         <div className='df fld w-fluid '>
                             <label htmlFor="firstname">First Name</label>
