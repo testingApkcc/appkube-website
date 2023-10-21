@@ -6,13 +6,16 @@ const Footer = () => {
             <div className="logo"> <img src="images/appkubelogo.png" alt="" /> </div>
             <div className="footer-main">
                 <div className="news-letter bdr mr">
+                    <form action="/thank" name='subform' data-netlify='true'>
+                        <input type="hidden" name='form-name' value='subform' />
 
-                    <h6>Subscribe to our newsletter</h6>
-                    <div className="email">
-                        <input placeholder="Enter your email" className="email-input" type="email" />
-                    </div>
+                        <h6>Subscribe to our newsletter</h6>
+                        <div className="email">
+                            <input placeholder="Enter your email" className="email-input" type="email" />
+                        </div>
 
-                    <button className="sub-btn">Subscribe</button>
+                        <button className="sub-btn">Subscribe</button>
+                    </form>
                 </div>
 
                 <div className='foot-width'>
