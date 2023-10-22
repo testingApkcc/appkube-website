@@ -41,9 +41,10 @@
   background: radial-gradient(circle, rgba(114, 21, 255, 1) 0%, rgba(7, 12, 39, 1) 100%, rgba(255, 255, 255, 1) 100%);
 }
 
-.clr-black{
+.clr-black {
   color: #0e0e0e;
 }
+
 .gp {
   gap: 60px;
 }
@@ -338,18 +339,22 @@ input {
   border: 1px solid #EEEEEE;
   color: #000 !important;
 }
-label{
-  color: rgba(24, 23, 23,0.7);
+
+label {
+  color: rgba(190, 190, 190, 0.7);
 }
+
 textarea {
   margin-top: 08px;
   border-radius: 5px !important;
   border: 1px solid #EEEEEE;
   color: #000 !important;
 }
-.bgwhite{
+
+.bgwhite {
   background-color: #fff !important;
 }
+
 .formwidth {
   width: 26vw;
 }
@@ -366,13 +371,26 @@ input[type="checkbox"] {
   border: 1px solid #EEEEEE;
 }
 
-input::placeholder{
+input::placeholder {
   padding: 5px 0px 10px;
 }
+
 .inpt::placeholder {
   color: #1f1d1d81;
   padding: 10px 20px;
 }
-.email{
+
+.email {
   margin: 15px 10px;
+}
+
+.icon-md {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.form-h4 {
+  color: #8F90A4;
+  font-size: 1.5rem;
 }

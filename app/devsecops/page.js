@@ -2,14 +2,17 @@ import React from 'react'
 
 const features = () => {
   return (
-  <>
-  <section id='devsecops'>
+    <>
+      <section>
+        <img src="devsecops.svg" alt="" />
+      </section>
+      {/* <section id='devsecops'>
     <div className='df w-main ai-c'>
       <div className='pl1'>
         <h1 className='title tl'>Unleash the Power of DevSecOps <br /> with Appkube</h1>
-        <h3 className='subtitle tl'>Modernize Your Legacy Technology Stack and Accelerate <br /> Your Business Agility and Reliability</h3>
-        {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
-      </div>
+        <h3 className='subtitle tl'>Modernize Your Legacy Technology Stack and Accelerate <br /> Your Business Agility and Reliability</h3> */}
+      {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
+      {/* </div>
         <div className="hero w-75">
         <img className='bdr' src="devsecops/one.jpg" alt="" />
     </div>
@@ -45,8 +48,8 @@ const features = () => {
               <p>Highlight the benefits such as provisioning resources across clouds in a complete software-defined way, delivering modern Container and Serverless workloads, accelerating project execution at 50% time & cost, and more.</p>
             </div>
           </div>
-          </div>
-           {/* <div id="slide1" className="clint-cards">
+          </div> */}
+      {/* <div id="slide1" className="clint-cards">
                  <div className="c-card-1">
             <div className="c-card c-card1">
                 <div className="clint-profile">
@@ -114,16 +117,16 @@ const features = () => {
             </div>
                  </div>
            </div> */}
-  <div className="comp-block">
+      {/* <div className="comp-block">
             <div className="imageblock"><img src="devsecops/devsecopsp6.svg" alt="" /></div>
             <div className="textblock pl pr">
               <h4 className='section-title maddy'>Ready to Transform Your Enterprise? </h4>
               <p>Explore AppKube’s DevSecOps Tooling Solutions Today!</p>
-              {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
+             <a href="#" className='dev-btn'>explore appkube solutions</a>
             </div>
           </div>
 
-    </section>
+    </section> */}
     </>
   )
 }

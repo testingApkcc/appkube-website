@@ -2,19 +2,18 @@ import React from 'react'
 
 const features = () => {
   return (
-  <>
-  <section id='devsecops w-main'>
+    <>
+      {/* <section id='devsecops w-main'>
     <div className="hero-appcentric w-main">
      <div>
          <h1 className='title tl'>"Are Your Cloud Expenses <br />spiraling Out of Control?"</h1>
         <h3 className='subtitle tl '>"Discover how Appkube <br />optimizes your cloud costs and <br />infrastructure for maximized ROI"</h3>
         {/* <a href="#" className='dev-btn'><sup>*</sup>Get Started</a> */}
-     </div>
+      {/* </div>
         <div className="hero">
         <img src="appcentric/cost optimization image p1.svg" alt="" />
         </div>
     </div>
-
     </section>
   <section className='w-main'>
     <div className="df fld maddy bg-grad">
@@ -81,9 +80,12 @@ const features = () => {
             <div className="textblock pl pr">
               <h4 className='section-title maddy'>"Ready to revolutionize your cloud infrastructure?"</h4>
               {/* <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a> */}
-            </div>
+      {/* </div>
           </div>
 
+    </section> */}
+    <section>
+        <img src="appcentric.svg" alt="" />
     </section>
     </>
   )
