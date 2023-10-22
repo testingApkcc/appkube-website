@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { AiFillCaretDown } from "react-icons/ai";
+import { AiFillCaretDown, AiOutlineMenu } from "react-icons/ai";
 const Nav = () => {
   return (
     <>
@@ -8,6 +8,7 @@ const Nav = () => {
           <div className="logo">
             <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
           </div>
+          <AiOutlineMenu className="hamburger"/>
           <div className="home-menu">
             <a href="/">Home</a>
             <div className="dropdown">

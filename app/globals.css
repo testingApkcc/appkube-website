@@ -376,3 +376,6 @@ input::placeholder{
 .email{
   margin: 15px 10px;
 }
+.hamburger{
+  display: none;
+}
