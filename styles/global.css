@@ -295,11 +295,6 @@ ul.submenu li {
     border: none;
 }
 
-.home-menu {
-    display: flex;
-    gap: 25px;
-    align-items: center;
-}
 
 .dropdown {
     position: relative;

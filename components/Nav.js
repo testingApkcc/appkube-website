@@ -6,21 +6,23 @@ const Nav = () => {
       <header>
         <nav className="flex w-main">
           <div className="logo">
-            <a href="/"><img src="images/appkubelogo.png" alt=""/></a>
+            <a href="/"><img src="images/appkubelogo.png" alt="" /></a>
           </div>
-          <AiOutlineMenu className="hamburger"/>
-          <div className="home-menu">
-            <a href="/">Home</a>
-            <div className="dropdown">
-              <button className="dropbtn fmenu">Features <AiFillCaretDown /></button>
-              <div className="dropdown-content">
-                <a href="/appcentric">Appcentric Optimization</a>
-                <a href="/cloudnative">Cloud Native App Blocks</a>
-                <a href="/sre">SRE - Infra & App</a>
-                <a href="/devsecops">DevSecOps Tooling</a>
+          <div>
+            <AiOutlineMenu className="hamburger" />
+            <div className="home-menu">
+              <a href="/">Home</a>
+              <div className="dropdown">
+                <button className="dropbtn fmenu">Features <AiFillCaretDown /></button>
+                <div className="dropdown-content">
+                  <a href="/appcentric">Appcentric Optimization</a>
+                  <a href="/cloudnative">Cloud Native App Blocks</a>
+                  <a href="/sre">SRE - Infra & App</a>
+                  <a href="/devsecops">DevSecOps Tooling</a>
+                </div>
               </div>
+              <a href="/contact">Contact Us</a>
             </div>
-            <a href="/contact">Contact Us</a>
           </div>
           {/* <ul className="nav-links">
                 <li id="home" href="/">Home</li>
