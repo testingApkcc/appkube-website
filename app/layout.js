@@ -14,7 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.png" sizes="any" />
+        <link rel="icon" type="image/jpg" href="favicon.jpg" />
+        {/* <link rel="icon" href="/favicon.png" sizes="any" /> */}
       </head>
       <body>
        <Nav/>
