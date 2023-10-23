@@ -10,12 +10,12 @@ const Navbar = () => {
 
     return (
         <>
-           
+
             <nav className="bg-grad p-4">
                 <div className="logo">
                     <a href="/"><img src="images/appkubelogo.png" alt="" /></a>
                 </div>
-                <div id='menu'
+                <div
                     className={`lg:flex lg:space-x-4 ${isMenuOpen ? 'block' : 'hidden'
                         } mobile-menu ai-c`}
                 >
