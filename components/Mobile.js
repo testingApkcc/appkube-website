@@ -9,12 +9,28 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-grad p-4">
+        <>
+           
+            <nav className="bg-grad p-4">
                 <div className="logo">
                     <a href="/"><img src="images/appkubelogo.png" alt="" /></a>
                 </div>
-
-
+                <div id='menu'
+                    className={`lg:flex lg:space-x-4 ${isMenuOpen ? 'block' : 'hidden'
+                        } mobile-menu ai-c`}
+                >
+                    <a href="/" className="text-white">Home</a>
+                    <div className="dropdown">
+                        <button className="dropbtn fmenu">Features <AiFillCaretDown /></button>
+                        <div className="dropdown-content">
+                            <a href="/appcentric">Appcentric Optimization</a>
+                            <a href="/cloudnative">Cloud Native App Blocks</a>
+                            <a href="/sre">SRE - Infra & App</a>
+                            <a href="/devsecops">DevSecOps Tooling</a>
+                        </div>
+                    </div>
+                    <a href="/contact" className="text-white">Contact</a>
+                </div>
                 <div className="lg:hidden">
                     <button
                         className="text-white p-2 focus:outline-none"
@@ -36,24 +52,8 @@ const Navbar = () => {
                         </svg>
                     </button>
                 </div>
-
-                <div
-                    className={`lg:flex lg:space-x-4 ${isMenuOpen ? 'block' : 'hidden'
-                        } mobile-menu ai-c`}
-                >
-                    <a href="/" className="text-white">Home</a>
-                    <div className="dropdown">
-                        <button className="dropbtn fmenu">Features <AiFillCaretDown /></button>
-                        <div className="dropdown-content">
-                            <a href="/appcentric">Appcentric Optimization</a>
-                            <a href="/cloudnative">Cloud Native App Blocks</a>
-                            <a href="/sre">SRE - Infra & App</a>
-                            <a href="/devsecops">DevSecOps Tooling</a>
-                        </div>
-                    </div>
-                    <a href="/contact" className="text-white">Contact</a>
-                </div>
-        </nav>
+            </nav>
+        </>
     );
 };
 
