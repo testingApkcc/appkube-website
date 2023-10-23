@@ -1,12 +1,16 @@
 'use client'
 import { useState } from 'react';
-import { AiFillCaretDown, AiOutlineMenu } from "react-icons/ai";
+import { AiFillCaretDown, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
+    };
+
+    const closeMenu = () => {
+        setMenuOpen(false);
     };
 
     return (
@@ -19,6 +23,13 @@ const Navbar = () => {
                         className={`lg:hidden transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                             } fixed top-0 right-0 w-100 bg-grad text-white p-4 z-40`}
                     >
+
+                        <button
+                            className="text-white p-2 focus:outline-none absolute -top-4 -right-4 m-2"
+                            onClick={closeMenu}
+                        >
+                            <AiOutlineClose/>
+                        </button>
                         <div className="mob-menu">
                             <a href="/" className="text-white">Home</a>
                             <div className="dropdown">

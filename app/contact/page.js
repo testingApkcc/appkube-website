@@ -17,24 +17,24 @@ const contact = () => {
                     <input type="hidden" name='form-name' value='contact' />
                     <div className='df gp form-field'>
                         <div className='df fld w-fluid '>
-                            <label htmlFor="firstname">First Name</label>
+                            <label htmlFor="firstname" className='text-neutral-400'>First Name</label>
                             <input type="text" id='firstname' name='firstname' placeholder='First Name' className='inpt' />
                         </div>
                         <div className='df fld w-fluid '>
-                            <label htmlFor="lastname">Last Name</label>
+                            <label htmlFor="lastname" className='text-neutral-400'>Last Name</label>
                             <input type="text" name='lastname' id='lastname' placeholder='Last Name' className='inpt' />
                         </div>
                     </div>
                     <div className='form-field df fld'>
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email" className='text-neutral-400'>Email</label>
                         <input type="email" id='email' name='email' placeholder='Enter Email' className='inpt' />
                     </div>
                     <div className='form-field df fld'>
-                        <label htmlFor="phone">Phone Number</label>
+                        <label htmlFor="phone" className='text-neutral-400'>Phone Number</label>
                         <input type="tel" id='phone' name='phone' placeholder='Enter Phone Number' className='inpt' />
                     </div>
                     <div className='form-field df fld'>
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message" className='text-neutral-400'>Message</label>
                         <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' className='inpt'></textarea>
                     </div>
                     <div className='form-field df ai-c'>
