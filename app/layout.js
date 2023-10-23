@@ -2,6 +2,7 @@
 import './globals.css'
 import '../styles/global.css'
 import '../styles/responsive.css'
+import Mobile from '../components/mobile'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
@@ -17,7 +18,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body>
-        <Nav />
+        <Mobile />
+        {/* <Nav /> */}
         {children}
         <Footer />
         <script
