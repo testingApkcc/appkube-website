@@ -383,16 +383,4 @@ input::placeholder {
   margin: 15px 10px;
 }
 
-.home-menu {
-  /* display: flex;
-  gap: 25px;
-  align-items: center; */
-  display: none;
-}
-
-/* .hamburger{
-  display: none;
-} */
-.hamburger:hover .home-menu {
-  display: block;
-}
+ 
