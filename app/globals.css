@@ -83,7 +83,6 @@
 
 .subheading {
   color: var(--color);
-  text-align: center;
   font-size: var(--subtitle);
   font-style: normal;
   font-weight: bold;
@@ -273,7 +272,7 @@ il {
 }
 
 .mt-1 {
-  margin-top: 65px !important;
+  margin-top: 65px ;
 }
 
 .mt-sm {
@@ -340,12 +339,8 @@ input {
   color: #000 !important;
 }
 
-input:focus {
-  border: 1px solid #5C12D4;
-}
-
 label {
-  color: rgba(190, 190, 190, 0.7);
+  color: rgba(24, 23, 23, 0.7);
 }
 
 textarea {
@@ -353,10 +348,6 @@ textarea {
   border-radius: 5px !important;
   border: 1px solid #EEEEEE;
   color: #000 !important;
-}
-
-textarea:focus {
-  border: 1px solid #5C12D4;
 }
 
 .bgwhite {
@@ -392,13 +383,16 @@ input::placeholder {
   margin: 15px 10px;
 }
 
-.icon-md {
-  font-size: 1.2rem;
-  margin-right: 10px;
-  margin-left: 25px;
+.home-menu {
+  /* display: flex;
+  gap: 25px;
+  align-items: center; */
+  display: none;
 }
 
-.form-h4 {
-  color: #8F90A4;
-  font-size: 1.5rem;
+/* .hamburger{
+  display: none;
+} */
+.hamburger:hover .home-menu {
+  display: block;
 }
