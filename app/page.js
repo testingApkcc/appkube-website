@@ -55,13 +55,15 @@ export default function Home() {
                 <img className="ellipse2" src="ellipse/ellipse-1.png" alt="" />
             </section>
             <section className="sec-3">
-                <h2 className='sec-title mt-1 sm-mt-0'>Gain complete insights into INFRA / APP / BUSINESS</h2>
+                <h2 className='sec-title mt-1 mt-sm'>Gain complete insights into INFRA / APP / BUSINESS</h2>
                 <div className="con-1 container">
                     <img className="ellipse-9" src="ellipse/ellipse-9.png" alt="" />
                     <div className="left w-main">
                         <h3 className='subheading tl'>Monitor, Troubleshoot, & Optimize Cloud Performance.</h3>
                         <div className="hero-img"> <img src="environments.svg" alt="" />
-                            <p className='m-2 tc'>Get user friendly scores of your Infra and Services and act on them.</p></div>
+                            <p className='m-2 tc'>Get user friendly scores of your Infra and Services and act on them.</p>
+                        </div>
+
                         {/* <button>Learn More</button> */}
                     </div>
                     <img className="ellipse-10" src="ellipse/ellipse-10.png" alt="" />
@@ -100,12 +102,12 @@ export default function Home() {
                 </div>
                 <div className="cards-con">
                     <div className="cards-row flex jc-c">
-                        <div className="card w-card card-detail">
+                        <div className="card w-card card-detail pading">
                             <img className="icon" src="images/appcentricoptimization.svg" alt="" />
                             <h2>App Centric Optimization</h2>
                             <p>AppKube is your key to cost-effective, secure, and efficient cloud management. With precise discovery analysis and business-centric insights, it helps enterprises to optimize cloud resources, reduce excessive costs, and enhance reliability.</p>
                         </div>
-                        <div className="card w-card card-detail">
+                        <div className="card w-card card-detail pading">
                             <img className="icon" src="images/icon-2.svg" alt="" />
                             <h2>SRE</h2>
                             <p>AppKube simplifies multi-cloud management, optimizing operations and costs with real-time insights and AI-driven solutions.</p>
@@ -113,12 +115,12 @@ export default function Home() {
 
                     </div>
                     <div className="cards-row flex jc-c">
-                        <div className="card w-card card-detail">
+                        <div className="card w-card card-detail pading">
                             <img className="icon" src="images/icon.svg" alt="" />
                             <h2>AppBlocks</h2>
                             <p>AppKube accelerates cloud-native development with reusable application blocks and streamlined service management. It enables rapid product delivery, reduces coding efforts, and simplifies legacy application migration.</p>
                         </div>
-                        <div className="card w-card card-detail">
+                        <div className="card w-card card-detail pading">
                             <img className="icon" src="images/devsecopstooling.svg" alt="" />
                             <h2>DevSecOps Tooling</h2>
                             <p>AppKube drives enterprise agility and competitiveness by unifying Developer, Security, and Operations teams within one platform. It accelerates project execution by 50%, simplifies the adoption of modern cloud-native services, and fosters a DevSecOps culture.</p>
@@ -143,7 +145,7 @@ export default function Home() {
                                 <a href="Cloud-Optimization.pdf" target='_blank' className='knw'>Know More</a>
                             </div>
                         </div>
-                        <div className="card-detail">
+                        <div className="card-detail ">
                             <div className="card w-card hts">
                                 <img className="icon" src="images/modernization.svg" alt="" />
                                 <h2>Migration & Modernization</h2>
@@ -178,10 +180,8 @@ export default function Home() {
 
                     </div>
                 </div>
-                <div className="">
-                    <div className="w-cio mb-1 mt-1" >
-                        <img src="images/cio.svg" alt="" />
-                    </div>
+                <div className="w-cio mb-1 mt-1" >
+                    <img src="images/cio.svg" alt="" />
                 </div>
             </section>
         </>

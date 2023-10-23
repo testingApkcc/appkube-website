@@ -26,7 +26,7 @@ p {
 }
 
 .w-cio {
-    width: 66vw !important;
+    width: 66vw; 
 }
 
 .header-hr {
