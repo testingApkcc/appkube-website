@@ -272,7 +272,7 @@ il {
 }
 
 .mt-1 {
-  margin-top: 65px ;
+  margin-top: 65px;
 }
 
 .mt-sm {
@@ -384,10 +384,10 @@ input::placeholder {
 }
 
 .home-menu {
-  /* display: flex;
+  display: flex;
   gap: 25px;
-  align-items: center; */
-  display: none;
+  align-items: center;
+  /* display: none; */
 }
 
 /* .hamburger{

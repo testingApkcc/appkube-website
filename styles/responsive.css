@@ -3504,12 +3504,12 @@
     }
 
     .hamburger {
-        display: block;
+        display: none;
         font-size: 1.8rem;
     }
 
     .home-menu {
-        display: none;
+        /* display: none; */
     }
 
     .hamburger:hover>.home-menu {
