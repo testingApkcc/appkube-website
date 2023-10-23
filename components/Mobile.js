@@ -10,13 +10,15 @@ const Navbar = () => {
 
     return (
         <>
+        <header>
+
             <nav className="bg-grad p-4">
                 <div className="logo">
                     <a href="/"><img src="images/appkubelogo.png" alt="" /></a>
                 </div>
                 <div
                     className={`lg:flex lg:space-x-4 ${isMenuOpen ? 'block' : 'hidden'
-                        } mobile-menu ai-c`}
+                } mobile-menu ai-c`}
                 >
                     <a href="/" className="text-white">Home</a>
                     <div className="dropdown">
@@ -34,7 +36,7 @@ const Navbar = () => {
                     <button
                         className="text-white p-2 focus:outline-none"
                         onClick={toggleMenu}
-                    >
+                        >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6"
@@ -47,11 +49,12 @@ const Navbar = () => {
                                 strokeLinejoin="round"
                                 strokeWidth={2}
                                 d="M4 6h16M4 12h16M4 18h16"
-                            />
+                                />
                         </svg>
                     </button>
                 </div>
             </nav>
+                                </header>
         </>
     );
 };
