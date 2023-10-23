@@ -57,11 +57,11 @@ p {
 /* have to display block */
 
 .tl {
-    text-align: left !important;
+    text-align: left ;
 }
 
 .tc {
-    text-align: center !important;
+    text-align: center ;
 }
 
 /* utilities */

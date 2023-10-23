@@ -39,7 +39,7 @@ export default function Home() {
                             </svg>
                             Optimize
                         </h1>
-                        <h2 className='subtitle mt-0'>We Discover Infrastructure, Corelate With <br />Business,  Optimize With Container / Serverless Platform</h2>
+                        <h2 className='subtitle mt-0 mb-1'>We Discover Infrastructure, Corelate With <br />Business,  Optimize With Container / Serverless Platform</h2>
                     </div>
 
                     {/* <div className="sec-1-btns flex">
@@ -175,11 +175,12 @@ export default function Home() {
                                 <a href="DevSecOps-TRANSFORMATION.pdf" target='_blank' className='knw'>Know More</a>
                             </div>
                         </div>
-                        <div className="">
-                            <div className="w-cio" mb-1 >
-                                <img src="images/cio.svg" alt="" />
-                            </div>
-                        </div>
+
+                    </div>
+                </div>
+                <div className="">
+                    <div className="w-cio mb-1 mt-1" >
+                        <img src="images/cio.svg" alt="" />
                     </div>
                 </div>
             </section>

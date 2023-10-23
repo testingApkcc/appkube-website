@@ -2925,7 +2925,7 @@
 /* Media queriezzzz for mobile screens */
 @media screen and (max-width:500px) {
     .container {
-        width: 340px;
+        width: 100%;
     }
 
 
@@ -3277,6 +3277,21 @@
 
 /* css for mobile responsive  */
 @media screen and (max-width:480px) {
+    .w-main{
+        width: 100%;
+    }
+    .cards-con{
+        padding: 0 4vw;
+    }
+    .card{
+        width: 100%;
+    }
+.pd-sm{
+    padding: 0 11vw;
+}
+    .con-1{
+        height: 50vh;
+    }
     .home-menu {
         display: flex;
         flex-direction: column;
@@ -3284,9 +3299,9 @@
     }
 
     .dropdown-content {
-                width: 62vw;
-                position: absolute;
-                right: 0;
+        width: 62vw;
+        position: absolute;
+        right: 0;
     }
 
     footer {
@@ -3326,10 +3341,11 @@
     }
 
     .subtitle,
+    .sec-title,
     .subheading,
     .section-title {
-        font-size: 1.3rem;
-        text-align: start;
+        font-size: 0.8rem;
+        text-align: center;
         line-height: 30px;
     }
 
@@ -3366,7 +3382,7 @@
     }
 
     .hero-img {
-        width: 100vw;
+        width: 100%;
     }
 
     .hero img {
@@ -3410,7 +3426,12 @@
     .mb {
         margin-top: 20px;
     }
-
+    .tl{
+       text-align: center !important;
+    }
+.mb-1{
+    margin-bottom: 25px;
+}
     section {
         margin: 0px;
     }
@@ -3429,14 +3450,17 @@
         margin-top: 15px;
         width: 100%;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
         font-size: 1.8rem;
     }
-        .home-menu{
-            display: none;
-        }
-    .hamburger:hover > .home-menu{
+
+    .home-menu {
+        display: none;
+    }
+
+    .hamburger:hover>.home-menu {
         display: block;
     }
 }
