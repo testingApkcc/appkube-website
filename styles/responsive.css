@@ -240,7 +240,7 @@
 
     .card {
         display: flex;
-        width: 373px;
+        width: 25vw;
         padding: 30px 40px 30px 30px;
         flex-direction: column;
         align-items: flex-start;
@@ -997,7 +997,7 @@
 
     .card {
         display: flex;
-        width: 373px;
+        width: 20vw;
         padding: 30px 40px 30px 30px;
         flex-direction: column;
         align-items: flex-start;
@@ -1827,7 +1827,7 @@
 
     .card {
         display: flex;
-        width: 373px;
+        width: 20vw;
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
