@@ -2,12 +2,15 @@ import React from 'react'
 
 const sreinfra = () => {
   return (
-  <>
-  <section id='devsecops'>
+    <>
+      <section>
+        <img src="sre.svg" alt="" />
+      </section>
+      {/* <section id='devsecops'>
         <h1 className='title'>Empowering Enterprises with <br /> SRE Solutions</h1>
-        <h3 className='subtitle'>Streamlining Multi-Cloud Hybrid Environments with AppKube</h3>
-        {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
-        <div className="hero">
+        <h3 className='subtitle'>Streamlining Multi-Cloud Hybrid Environments with AppKube</h3> */}
+      {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
+      {/* <div className="hero">
         <img src="sreimages\SRE p1.svg" alt="" />
         </div>
          <wrapper>
@@ -31,9 +34,9 @@ const sreinfra = () => {
          </wrapper>
          <h5 className='subtitle'>AppKube - Your Partner <br /> in Seamless Cloud Management</h5>
           <div className="comp-block">
-            <div className="textblock flexorder pl">
-              {/* <p className='section-title-sre'>Overview</p> */}
-              <p>
+            <div className="textblock flexorder pl"> */}
+      {/* <p className='section-title-sre'>Overview</p> */}
+      {/* <p>
                 Overview:<br/>
                 Brief about how AppKube addresses the challenges faced by enterprises in managing multiple products across different clouds
                      <br/><br/>
@@ -55,8 +58,8 @@ const sreinfra = () => {
             <div className="imageblock"><img src="sreimages/SRE P5.svg" alt="" /></div>
           </div>
     </section>
-  <section>
-    {/* <div className="flex-col-bg">
+  <section> */}
+      {/* <div className="flex-col-bg">
           <div className="flex-col">
             <div className="fimageblock"><img src="devsecops/devsecopsp4.svg" alt="" /></div>
             <div className="ftextblock">
@@ -72,7 +75,7 @@ const sreinfra = () => {
             </div>
           </div>
           </div> */}
-           {/* <div id="slide1" className="clint-cards">
+      {/* <div id="slide1" className="clint-cards">
         <div className="c-card-1">
             <div className="c-card c-card1">
                 <div className="clint-profile">
@@ -90,12 +93,12 @@ const sreinfra = () => {
                         Ipsum blanditiis provident magnam perspiciatis!</p>
                 </div> */}
 
-            {/* </div> */}
-            {/* <div className="c-card-bg c-card-bg1"> */}
+      {/* </div> */}
+      {/* <div className="c-card-bg c-card-bg1"> */}
 
-            {/* </div>
+      {/* </div>
         </div> */}
-        {/* <div className="c-card-1">
+      {/* <div className="c-card-1">
             <div className="c-card">
                 <div className="clint-profile">
                     <img  src="images/Avatar-2.png" alt="" />
@@ -125,7 +128,7 @@ const sreinfra = () => {
                         <p>Jenny Wilson</p>
                         <p>UI/UX Designer</p>
                     </div> */}
-                    {/* <div className="profile-icons">
+      {/* <div className="profile-icons">
                         <img  src="images/quotation.png" alt="" />
                     </div>
                 </div>
@@ -134,22 +137,22 @@ const sreinfra = () => {
                         Aliquet suspendisse vitae placerat donec.</p>
                 </div> */}
 
-            {/* </div> */}
-            {/* <div className="c-card-bg">
+      {/* </div> */}
+      {/* <div className="c-card-bg">
 
             </div>
         </div>
     </div>  */}
-  <div className="comp-block">
+      {/* <div className="comp-block">
             <div className="imageblock"><img src="sreimages\SRE P6.svg" alt="" /></div>
             <div className="textblock pl pr">
               <h4 className='section-title maddy'>Ready to Simplify Your Cloud Management?</h4>
               {/* <p>Brief about the challenges faced by most.</p> */}
-              <a href="#" className='dev-btn'>Get Started with AppKube</a>
-            </div>
-          </div>
+      {/* <a href="#" className='dev-btn'>Get Started with AppKube</a>
+    </div >
+          </div >
 
-    </section>
+    </section > * /} */}
     </>
   )
 }

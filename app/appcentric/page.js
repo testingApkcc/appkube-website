@@ -1,90 +1,97 @@
 import React from 'react'
+import { AiTwotoneLeftCircle } from "react-icons/ai";
 
 const features = () => {
   return (
     <>
       <section id='devsecops w-main'>
-        <div className="hero-appcentric ai-c w-main">
-          <div>
-            <h1 className='title cldf tl'>"Are Your Cloud Expenses spiraling Out of Control?"</h1>
-            <h3 className='subtitle tl '>"Discover how Appkube <br />optimizes your cloud costs and <br />infrastructure for maximized ROI"</h3>
-            {/* <a href="#" className='dev-btn'><sup>*</sup>Get Started</a> */}
-          </div>
-          <div className="w-36">
-            <img src="appcentric/cost optimization image p1.svg" alt="" />
-          </div>
-        </div>
 
+        <div className="w-50 flex items-center gap-5">
+          <img src="clod.png" alt="" />
+        </div>
+          <h2 className='sec-title text-center mt-0'>Tailored solutions for Cloud Optimization. Make a significant difference in your bottom line.</h2>
       </section>
       <section className='w-main'>
-        <div className="df fld ai-c mt-sm">
-          <div className="comp-block w-main bg-gra-invert">
-            <div className="flexorder pr pl">
-              <h4 className='subheading tl'>"The Challenges Enterprises Face in Cloud Adoption"</h4>
-              <p className='tl'>Excessive cloud CapEx/OpEx issues. <br />
-                The dilemma of the Actual vs Non-Actual Ratio. <br />
-                The pitfalls of Resource Oversizing with Primitive Model.
-              </p>
-            </div>
-            <div className="imageblock"><img src="appcentric/cost optimization image p2.svg" alt="" /></div>
-          </div>
-          <div className="flex-col-bg w-main">
-            <div className="flex-col bg-grad card-size bdr br-rds pa">
-              <div className="fimageblock"><img src="appcentric/cost optimization image p3.svg" alt="" /></div>
+        <div className="df fld maddy">
+
+          <div className="flex-col-bg">
+            <div className="flex-col card-size bdr  bg-grad pa">
+              {/* <div className="fimageblock"><img src="appcentric/cost optimization image p3.svg" alt="" /></div> */}
               <div className="">
-                <h4 className='subheading tl'>"Unlocking Efficiency & Modernization"</h4>
-                <ul className='tl'>
-                  <li>
-                    Infra - Business Correlation
-                  </li>
-                  <li>
-                    Modernization & Right Fitment
-                  </li>
+                {/* <h4 className='subheading tl'>"Unlocking Efficiency & Modernization"</h4> */}
+                <h4 className='subheading tl'>Key Insights</h4>
+                <ul>
+                  <li>60% of cloud spending is wasted</li>
+                  <li>Aligning costs with business goals is crucial</li>
+                  <li>Higher costs can be justified with greater revenue or productivity</li>
                 </ul>
               </div>
             </div>
-            <div className="flex-col bg-grad card-size bdr br-rds pa">
-              <div className="fimageblock"><img src="appcentric/cost optimization image p4.svg" alt="" /></div>
+            <div className="flex-col card-size bdr bg-grad pa">
+              {/* <div className="fimageblock"><img src="appcentric/cost optimization image p4.svg" alt="" /></div> */}
               <div className="tl">
-                <h4 className='subheading tl'>"The Real-World Impact on Cloud Expenditure"</h4>
-                <p className='tl'>Detailed elaboration about the 10:90 ratio, risks of unmanaged resources, security loopholes, and operational risks.</p>
+                <h4 className='subheading tl'>Three Dimensions of Optimization</h4>
+                <ul>
+                  <li>Cloud native features for 15-20% cost optimization.</li>
+                  <li>Improve Actual Vs Non-Actual infrastructure ratio for upto 70% savings.</li>
+                  <li>Adopt modern architecture for atleast 25% savings.</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex-col-bg mt-1 br-rds gp">
-          <div className="flex-col  bg-grady bdr br-rds w-main pp">
-            <div className="wimg"><img src="appcentric/cost optimization image p5.svg" alt="" /></div>
-            <div className="ftextblock">
-              <h4 className='sm-card-fnt'>"Appkube: Your Cloud Optimization Specialist"</h4>
-              <p>How Appkube identifies key resource leakages, aligns infrastructure, gives business-cenric chargeback views, and pinpoints transformation opportunities</p>
-            </div>
-          </div>
-          <div className="flex-col  bg-grady bdr br-rds w-main pp">
-            <div className="wimg"><img src="appcentric/cost optimization image p6.svg" alt="" /></div>
-            <div className="ftextblock flexorder pr">
-              <h4 className='sm-card-fnt'>"A New Take on Cloud Transformation"</h4>
-              <p>The difference between Appkube's approach versus traditional methods, and the focus on effective transformations for cost benefits</p>
-            </div>
-          </div>
-          <div className="flex-col  bg-grady bdr br-rds w-main pp ">
-            <div className="wimg "><img className='pt' src="appcentric/cost optimization image p7.svg" alt="" /></div>
-            <div className="ftextblock flexorder pr">
-              <h4 className='sm-card-fnt'>"Achieve More with Less: Reliable and Cost - Effective"</h4>
-              <p>How Appkube reduces Infra CapEx and OpEx while improving reliability. Mention of AppKube's accelerators for speedy transformation.</p>
-            </div>
-          </div>
-        </div>
+        <div>
+          <h2 className='sec-title text-center mt-0'>Appkube's cloud Optimization Solution</h2>
+          {/* <div className="imageblock"><img src="appcentric/cost optimization image p8.svg" alt="" /></div> */}
+          <div className="p-8 rounded-md w-main bg-gra-invert">
+            <div>
+              <h4 className='section-title mb-7'>Key offerings of Appkube:</h4>
+              <div className="flex gap-8">
+                <div>
 
-        <div className="comp-block w-main mt-sm bg-gra-invert">
-          <div className="imageblock"><img src="appcentric/cost optimization image p8.svg" alt="" /></div>
-          <div className="textblock pl pr">
-            <h4 className='section-title maddy'>"Ready to revolutionize your cloud infrastructure?"</h4>
-            {/* <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a> */}
+
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 h-10 bg-grad rounded-full mr-4">
+                      <img src="icons/bulls-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>360-degree view of your multi cloud environment.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/shuttle-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>ML-powered recommendations and automated actions.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/cost-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Historical cost trend comparisons</p>
+                  </div>
+                </div>
+                <div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/bulb-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Real-time waste detection and cost spike resolution.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/settings-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Cost alignment with business outcomes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
       </section>
+      {/* <section>
+        <img src="appcentric.svg" alt="" />
+    </section> */}
     </>
   )
 }

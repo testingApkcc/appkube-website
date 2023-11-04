@@ -240,7 +240,7 @@
 
     .card {
         display: flex;
-        width: 373px;
+        width: 25vw;
         padding: 30px 40px 30px 30px;
         flex-direction: column;
         align-items: flex-start;
@@ -997,7 +997,7 @@
 
     .card {
         display: flex;
-        width: 373px;
+        width: 20vw;
         padding: 30px 40px 30px 30px;
         flex-direction: column;
         align-items: flex-start;
@@ -1827,7 +1827,7 @@
 
     .card {
         display: flex;
-        width: 373px;
+        width: 20vw;
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
@@ -2438,9 +2438,11 @@
         background: var(--neutral-gray-800, #0E1330);
         padding: 8px 12px 8px 12px;
     }
-.pading{
-    padding: 36px 25px 25px 35px;
-}
+
+    .pading {
+        padding: 36px 25px 25px 35px;
+    }
+
     .icon {
         width: 40.051px;
         height: auto;
@@ -2934,7 +2936,14 @@
         width: 100%;
     }
 
+    .dropbtn {
+        padding: 12px 8px 12px;
+        margin-left: -7%;
+    }
 
+    .hid-mobile {
+        display: none;
+    }
 
     /* header stasrt */
     header {
@@ -3501,19 +3510,6 @@
         margin-bottom: 20px;
         margin-top: 15px;
         width: 100%;
-    }
-
-    .hamburger {
-        display: block;
-        font-size: 1.8rem;
-    }
-
-    .home-menu {
-        display: none;
-    }
-
-    .hamburger:hover>.home-menu {
-        display: block;
     }
 
     p {
