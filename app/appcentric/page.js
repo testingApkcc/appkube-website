@@ -9,7 +9,7 @@ const features = () => {
         <div className="w-50 flex items-center gap-5">
           <img src="clod.png" alt="" />
         </div>
-          <h2 className='sec-title text-center mt-0'>Tailored solutions for Cloud Optimization. Make a significant difference in your bottom line.</h2>
+        <h2 className='sec-title text-center mt-4 mb-0'>Tailored solutions for Cloud Optimization. Make a significant difference in your bottom line.</h2>
       </section>
       <section className='w-main'>
         <div className="df fld maddy">
