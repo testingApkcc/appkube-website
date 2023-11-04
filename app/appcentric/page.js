@@ -7,7 +7,7 @@ const features = () => {
       <section id='devsecops w-main'>
 
         <div className="w-50 flex items-center gap-5">
-          <img src="clod.png" alt="" />
+          <img src="cloud-optimization.png" alt="" />
         </div>
         <h2 className='sec-title text-center mt-4 mb-0'>Tailored solutions for Cloud Optimization. Make a significant difference in your bottom line.</h2>
       </section>
