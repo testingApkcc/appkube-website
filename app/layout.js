@@ -3,7 +3,7 @@ import './globals.css'
 import '../styles/global.css'
 import '../styles/responsive.css'
 import Nav from '../components/Nav';
-import Mobile from '../components/Mobile'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body>
-        <Mobile />
+        <Navbar />
         <Nav />
         {children}
         <Footer />
