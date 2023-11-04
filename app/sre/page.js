@@ -3,156 +3,87 @@ import React from 'react'
 const sreinfra = () => {
   return (
     <>
-      <section>
-        <img src="sre.svg" alt="" />
+      <section id='devsecops w-main'>
+
+        <div className="w-50 flex items-center gap-5">
+          <img src="cloudnative/appcloudnative.png" alt="" />
+        </div>
+        <h2 className='sec-title text-center mt-4 mb-0'>Tailored solutions. Maximized data revenue and security. Flexibility and agility for the long term.</h2>
       </section>
-      {/* <section id='devsecops'>
-        <h1 className='title'>Empowering Enterprises with <br /> SRE Solutions</h1>
-        <h3 className='subtitle'>Streamlining Multi-Cloud Hybrid Environments with AppKube</h3> */}
-      {/* <a href="#" className='dev-btn'>explore appkube solutions</a> */}
-      {/* <div className="hero">
-        <img src="sreimages\SRE p1.svg" alt="" />
+      <section className='w-main'>
+        <div className="df fld maddy">
+
+          <div className="flex-col-bg">
+            <div className="flex-col card-size bdr  bg-grad pa">
+              {/* <div className="fimageblock"><img src="appcentric/cost optimization image p3.svg" alt="" /></div> */}
+              <div className="">
+                {/* <h4 className='subheading tl'>"Unlocking Efficiency & Modernization"</h4> */}
+                <h4 className='subheading tl'>Key Challenges</h4>
+                <ul>
+                  <li className='list-disc'>Slecting the right cloud strategy.</li>
+                  <li className='list-disc'>Increasing revenue while reducing time to cloud</li>
+                  <li className='list-disc'>Complexity in migration and modernization</li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex-col card-size bdr bg-grad pa">
+              {/* <div className="fimageblock"><img src="appcentric/cost optimization image p4.svg" alt="" /></div> */}
+              <div className="tl">
+                <h4 className='subheading tl'>Why Appkube?</h4>
+                <ul>
+                  <li>Simplify your cloud journey</li>
+                  <li>Achieve governance, efficiency, and flexibility across multi-clooud environments.</li>
+                  {/* <li>Tech Debt</li> */}
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-         <wrapper>
-          <div className="flex-col-bg ">
-          <div className="flex-col card-size bdr pa">
-            <div className="fimageblock"><img src="sreimages\SRE P2.svg" alt="" /></div>
-            <div className="">
-              <h4 className='subheading tl'>"The Challenge of Modern Enterprise Architecture"</h4>
-              <p>Brief about the need for modern microservices/serverless architecture in a multi-cloud hybrid environment. Explanation of the complexity in managing cost and SLAs across multiple clouds.</p>
-            </div>
-          </div>
-          <div className="flex-col card-size bdr pa">
-            <div className="fimageblock"><img src="sreimages\SRE P3.svg" alt="" /></div>
-            <div className="tl">
-              <h4 className='subheading tl'>"TThe Path to Simplified Cloud Management"</h4>
-             <p className='tl'>Detailing the necessity of the right tools to process data points in multi-cloud hybrid environments.</p>
-            </div>
-          </div>
-           </div>
+        <div>
+          {/* <h2 className='sec-title text-center mt-0'>Appkube's cloud Optimization Solution</h2> */}
+          {/* <div className="imageblock"><img src="appcentric/cost optimization image p8.svg" alt="" /></div> */}
+          <div className="p-8 rounded-md w-main bg-gra-invert">
+            <div>
+              <h4 className='section-title mb-7 text-center'>Our Cloud Solution</h4>
+              <div className="flex sm:flex-col md:flex- row lg:flex-row xl:flex-row gap-7">
+                <img src="sreimages/sre.jpg" alt="" className='w-1/4 hidden lg:block ' />
+                {/* <div><h3>hello</h3></div> */}
+                <div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/bulls-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Accelerated Cloud Adoption.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/shuttle-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>App-centric Optimization.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/cost-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Automated Cost Control.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/bulb-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>High Precision Migration.</p>
+                  </div>
 
-         </wrapper>
-         <h5 className='subtitle'>AppKube - Your Partner <br /> in Seamless Cloud Management</h5>
-          <div className="comp-block">
-            <div className="textblock flexorder pl"> */}
-      {/* <p className='section-title-sre'>Overview</p> */}
-      {/* <p>
-                Overview:<br/>
-                Brief about how AppKube addresses the challenges faced by enterprises in managing multiple products across different clouds
-                     <br/><br/>
-                     Features:<br/>
-                     Detailed list of features like self-service-based provisioning,
-                   standard operation, and governance processes.<br/><br/>
-                    Benifits:<br />
-                  Explanation of benefits like real-time SLA statistics, cost reduction, and improved customer experience.
-</p>
-            </div>
-            <div className="imageblock"><img src="sreimages\SRE P4.svg" alt="" /></div>
-          </div>
-          <div className="comp-block">
-            <div className="textblock pr">
-              <p className='section-title'>Meeting & Exceeding Customer Expectations</p>
-              <br/>
-              <p>Detailing what customers are looking for in a cloud management platform and how AppKube fulfills these exceptations</p>
-            </div>
-            <div className="imageblock"><img src="sreimages/SRE P5.svg" alt="" /></div>
-          </div>
-    </section>
-  <section> */}
-      {/* <div className="flex-col-bg">
-          <div className="flex-col">
-            <div className="fimageblock"><img src="devsecops/devsecopsp4.svg" alt="" /></div>
-            <div className="ftextblock">
-              <h4 className='section-title'> the Competitive Landscape</h4>
-              <p>Brief about the challenges faced by most enterprises such as competition, the introduction of new products, and the struggle to deliver speed, agility, flexibility, and better customer experience due to Legacy Application, Infrastructure, and IT Processes.</p>
-            </div>
-          </div>
-          <div className="flex-col">
-            <div className="fimageblock"><img src="devsecops/devsecopsp5.svg" alt="" /></div>
-            <div className="ftextblock flexorder pr">
-              <h4 className='section-title'>Navigating the Competitive Landscape</h4>
-              <p>Brief about the challenges faced by most enterprises such as competition, the introduction of new products, and the struggle to deliver speed, agility, flexibility, and better customer experience due to Legacy Application, Infrastructure, and IT Processes.</p>
-            </div>
-          </div>
-          </div> */}
-      {/* <div id="slide1" className="clint-cards">
-        <div className="c-card-1">
-            <div className="c-card c-card1">
-                <div className="clint-profile">
-                    <img  src="images/Avatar.png" alt="" />
-                    <div className="profile-info">
-                        <p>Cameron Williamson</p>
-                        <p>Web Designer</p>
-                    </div>
-                    <div className="profile-icons">
-                        <img  src="images/quotation.png" alt="" />
-                    </div>
                 </div>
-                <div className="clint-review">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cum perferendis sapiente.
-                        Ipsum blanditiis provident magnam perspiciatis!</p>
-                </div> */}
-
-      {/* </div> */}
-      {/* <div className="c-card-bg c-card-bg1"> */}
-
-      {/* </div>
-        </div> */}
-      {/* <div className="c-card-1">
-            <div className="c-card">
-                <div className="clint-profile">
-                    <img  src="images/Avatar-2.png" alt="" />
-                    <div className="profile-info">
-                        <p>Esther Howard</p>
-                        <p>Web Developer</p>
-                    </div>
-                    <div className="profile-icons">
-                        <img  src="images/quotation.png" alt="" />
-                    </div>
-                </div>
-                <div className="clint-review">
-                    <p>At viverra enim enim sed turpis orci cursus. Imperdiet eros mauris sed sodales nisi interdum
-                        ac. Eu congue quis egestas donec lectus</p>
-                </div>
-
+              </div>
             </div>
-            <div className="c-card-bg">
-
-            </div>
+          </div>
         </div>
-        <div className="c-card-1">
-            <div className="c-card">
-                <div className="clint-profile">
-                    <img  src="images/Avatar-3.png" alt="" />
-                    <div className="profile-info">
-                        <p>Jenny Wilson</p>
-                        <p>UI/UX Designer</p>
-                    </div> */}
-      {/* <div className="profile-icons">
-                        <img  src="images/quotation.png" alt="" />
-                    </div>
-                </div>
-                <div className="clint-review">
-                    <p>Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis amet sit posuere sed sit.
-                        Aliquet suspendisse vitae placerat donec.</p>
-                </div> */}
 
-      {/* </div> */}
-      {/* <div className="c-card-bg">
-
-            </div>
-        </div>
-    </div>  */}
-      {/* <div className="comp-block">
-            <div className="imageblock"><img src="sreimages\SRE P6.svg" alt="" /></div>
-            <div className="textblock pl pr">
-              <h4 className='section-title maddy'>Ready to Simplify Your Cloud Management?</h4>
-              {/* <p>Brief about the challenges faced by most.</p> */}
-      {/* <a href="#" className='dev-btn'>Get Started with AppKube</a>
-    </div >
-          </div >
-
-    </section > * /} */}
+      </section>
+      {/* <section>
+        <img src="appcentric.svg" alt="" />
+    </section> */}
     </>
   )
 }
