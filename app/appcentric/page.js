@@ -45,13 +45,13 @@ const features = () => {
           {/* <div className="imageblock"><img src="appcentric/cost optimization image p8.svg" alt="" /></div> */}
           <div className="p-8 rounded-md w-main bg-gra-invert">
             <div>
-              <h4 className='section-title mb-7'>Key offerings of Appkube:</h4>
-              <div className="flex gap-8">
+              <h4 className='section-title mb-7 text-center'>Key offerings of Appkube:</h4>
+              <div className="flex sm:flex-col md:flex- row lg:flex-row xl:flex-row gap-7">
+                <img src="appcentric/apkube-offerings.jpg" alt="" className='w-1/2 hidden lg:block ' />
+                {/* <div><h3>hello</h3></div> */}
                 <div>
-
-
                   <div className='flex justify-start mb-5 items-center'>
-                    <div className="w-10 h-10 bg-grad rounded-full mr-4">
+                    <div className="w-10 mr-4">
                       <img src="icons/bulls-white.png" alt="" />
                     </div>
                     <p className='text-left'>360-degree view of your multi cloud environment.</p>
@@ -68,8 +68,6 @@ const features = () => {
                     </div>
                     <p className='text-left'>Historical cost trend comparisons</p>
                   </div>
-                </div>
-                <div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
                       <img src="icons/bulb-white.png" alt="" />

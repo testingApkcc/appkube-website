@@ -3,86 +3,91 @@ import React from 'react'
 const cloudnativew = () => {
   return (
     <>
-      <section>
-        <img src="cloudnative.svg" alt="" />
-      </section>
-      {/* <section id='devsecops w-main'>
-    <div className="df ai-c jc-c gp w-main">
-     <div className="w-75">
-         <h1 className='title cldf tl'>"Empowering Enterprises with Efficient Cloud-Native Solutions"</h1>
-        <h3 className='subtitle tl '>"Accelerate your journey with AppKube, delivering
-high-quality,cost-effective, and flexible cloud-native microservices and serverless products."</h3>
-       <a href="#" className='dev-btn'><sup>*</sup>Get Started</a>
-     </div>
-        <div className="w-75">
-        <img src="cloudnative/appblockp1.svg" alt="" />
+      <section id='devsecops w-main'>
+
+        <div className="w-50 flex items-center gap-5">
+          <img src="cloudnative/appcloudnative.png" alt="" />
         </div>
-    </div>
+        <h2 className='sec-title text-center mt-4 mb-0'>Tailored solutions. Maximized data revenue and security. Flexibility and agility for the long term.</h2>
+      </section>
+      <section className='w-main'>
+        <div className="df fld maddy">
 
-    </section>
-  <section className='w-main'>
-    <div className="df fld maddy bg-grad">
-       <div className="comp-block w-main bg-gra-invert">
-            <div className="flexorder pr pl">
-              <h4 className='subheading tl'>"The Challenge for Modern Enterprises"</h4>
-              <p className='tl'>Enterprises today are in the pursuit of building high-quality, cost-effective cloud-native microservices/serverless products and solutions swiftly and efficiently. The continuous quest also involves migrating and modernizing existing legacy applications seamlessly.
-              </p>
+          <div className="flex-col-bg">
+            <div className="flex-col card-size bdr  bg-grad pa">
+              {/* <div className="fimageblock"><img src="appcentric/cost optimization image p3.svg" alt="" /></div> */}
+              <div className="">
+                {/* <h4 className='subheading tl'>"Unlocking Efficiency & Modernization"</h4> */}
+                <h4 className='subheading tl'>Key Benefits</h4>
+                <ul>
+                  <li><strong>Flexibility:</strong>Adopt and evolve as your business grows.</li>
+                  <li><strong>Control:</strong>Enhanced security and compliance standards.</li>
+                  <li><strong>Efficiency:</strong>Maximize productivity in the long run</li>
+                </ul>
+              </div>
             </div>
-            <div className="imageblock w-75"><img src="cloudnative/appblockp2.svg" alt="" /></div>
-          </div>
-       <div className="comp-block w-main bg-gra-invert">
-            <div className="pr">
-              <h4 className='subheading tl'>"The Challenge for Modern Enterprises"</h4>
-              <p className='tl'>Enterprises today are in the pursuit of building high-quality, cost-effective cloud-native microservices/serverless products and solutions swiftly and efficiently. The continuous quest also involves migrating and modernizing existing legacy applications seamlessly.
-              </p>
-            </div>
-            <div className="imageblock w-75"><img src="cloudnative/appblockp3.svg" alt="" /></div>
-          </div>
-    </div>
- <div className="w-main">
-          <div className="df ai-c bdr pa">
-              <h2 className='subtitle tl'>AppKube - Your Partner in Seamless Product Development</h2>
-              <p className='card-size'>AppKube specializes in providing common application blocks as reusable software components, allowing engineering teams to focus on business-specific blocks while we handle the common services, reducing the learning cycle and accelerating product development.</p>
-          </div>
-            <div className="comp-block df flexorder w-main bg-gra-invert">
-            <div className="imageblock"><img src="cloudnative/appblockp4.svg" alt="" /></div>
-            <div className="textblock pl pr">
-             <ul>
-              <li>
-               <strong> Common Features:</strong><br /> <br />
-              </li>
-              <li>List of common features like Search, Security/RBAC, CMS, Workflow Management, etc.</li><br />
-              <li>
-                <strong>Flexibility & Choice:</strong><br /> <br />
-Highlight the flexibility in choosing any cloud and architecture.
-              </li>
-              <li><br />
-                <strong>Unified Delivery: </strong> <br /><br />
-Emphasize delivering products in a unified way across different clouds.
-              </li>
-             </ul>
+            <div className="flex-col card-size bdr bg-grad pa">
+              {/* <div className="fimageblock"><img src="appcentric/cost optimization image p4.svg" alt="" /></div> */}
+              <div className="tl">
+                <h4 className='subheading tl'>The Challenges</h4>
+                <ul>
+                  <li>Development Cost</li>
+                  <li>Time and Quality</li>
+                  <li>Tech Debt</li>
+                </ul>
+              </div>
             </div>
           </div>
-           </div>
-
-  <div className="comp-block w-main bg-gra-invert">Get detailed View of
-Business and App Services
-    <div className="textblock ">
-              <h4 className='section-title maddy'>"Reap the Rewards with AppKube"</h4>
-               <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a>
-              <p>Discover how AppKube can significantly reduce new product development or legacy product transformation effort, allowing your engineering team to repeat success in delivering products and continually improve the common blocks API across products.</p>
-           </div>
-        <div className="imageblock w-md"><img src="cloudnative/appblockp5.svg" alt="" /></div>
-    </div>
-
-  <div className="comp-block w-main bg-gra-invert">
-            <div className="imageblock pr"><img src="cloudnative/appblockp6.svg" alt="" /></div>
-            <div className="textblock">
-              <h4 className='section-title pl'>"Ready to revolutionize your cloud infrastructure?"</h4>
-             <a href="#" className='dev-btn'><sup>*</sup>Get started with Appkube today!</a>
+        </div>
+        <div>
+          <h2 className='sec-title text-center mt-0'>Appkube's cloud Optimization Solution</h2>
+          {/* <div className="imageblock"><img src="appcentric/cost optimization image p8.svg" alt="" /></div> */}
+          <div className="p-8 rounded-md w-main bg-gra-invert">
+            <div>
+              <h4 className='section-title mb-7 text-center'> Appkube's Solution</h4>
+              <div className="flex sm:flex-col md:flex- row lg:flex-row xl:flex-row gap-7">
+                <img src="cloudnative/cloudnats.png" alt="" className='w-1/4 hidden lg:block ' />
+                {/* <div><h3>hello</h3></div> */}
+                <div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/bulls-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>60% less Time and Cost with Cloud Native reusable blocks.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/shuttle-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Customizable ISV solutions.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/cost-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Open, well-documented components for minimal tech debt.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/bulb-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>80% time reduction in build/deployment/operations.</p>
+                  </div>
+                  <div className='flex justify-start mb-5 items-center'>
+                    <div className="w-10 mr-4">
+                      <img src="icons/settings-white.png" alt="" />
+                    </div>
+                    <p className='text-left'>Flexibility across any cloud with modern architecture.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
 
+      </section>
+      {/* <section>
+        <img src="appcentric.svg" alt="" />
     </section> */}
     </>
   )
