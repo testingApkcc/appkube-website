@@ -30,7 +30,7 @@ const features = () => {
               {/* <div className="fimageblock"><img src="appcentric/cost optimization image p4.svg" alt="" /></div> */}
               <div className="tl">
                 <h4 className='subheading tl'>Why Appkube?</h4>
-               <p>Simplify your DevSecOps journey. Achieve maturity with a tailored, one-stop solution.</p>
+                <p>Simplify your DevSecOps journey. Achieve maturity with a tailored, one-stop solution.</p>
               </div>
             </div>
           </div>
@@ -42,36 +42,36 @@ const features = () => {
             <div>
               <h4 className='section-title mb-7 text-center'>Our DevSecOps Solution</h4>
               <div className="flex sm:flex-col md:flex- row lg:flex-row xl:flex-row gap-7">
-                <img src="sreimages/sre.jpg" alt="" className='w-1/4 hidden lg:block ' />
+                <img src="sreimages/explore.png" alt="" className='w-1/4 hidden lg:block ' />
                 {/* <div><h3>hello</h3></div> */}
                 <div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/bulls-white.png" alt="" />
+                      <img src="devsecops/explore.png" alt="" />
                     </div>
                     <p className='text-left'>Tool-based discovery and assessment.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/shuttle-white.png" alt="" />
+                      <img src="devsecops/infinity.png" alt="" />
                     </div>
                     <p className='text-left'>All-in-one DevSecOps tooling for accelerated transformation.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/cost-white.png" alt="" />
+                      <img src="devsecops/list.png" alt="" />
                     </div>
                     <p className='text-left'>Catalogue of cloud-native ISV solutions.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/bulb-white.png" alt="" />
+                      <img src="devsecops/refresh.png" alt="" />
                     </div>
                     <p className='text-left'>Ready-made IT automations for tech changes.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/bulb-white.png" alt="" />
+                      <img src="devsecops/group.png" alt="" />
                     </div>
                     <p className='text-left'>Pool of trained DevSecOps resources.</p>
                   </div>
