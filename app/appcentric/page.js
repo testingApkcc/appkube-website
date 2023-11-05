@@ -46,37 +46,37 @@ const features = () => {
           <div className="p-8 rounded-md w-main bg-gra-invert">
             <div>
               <h4 className='section-title mb-7 text-center'>Key offerings of Appkube:</h4>
-              <div className="flex sm:flex-col md:flex- row lg:flex-row xl:flex-row gap-7">
-                <img src="appcentric/apkube-offerings.jpg" alt="" className='w-1/2 hidden lg:block ' />
+              <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row gap-7">
+                <img src="appcentric/apkube-offerings.jpg" alt="" className='object-fit w-full md:w-1/2 hover:scale-105 duration-200' />
                 {/* <div><h3>hello</h3></div> */}
                 <div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/bulls-white.png" alt="" />
+                      <img src="icons/bulls-white.png" alt="" className='hover:scale-105 duration-200' />
                     </div>
                     <p className='text-left'>360-degree view of your multi cloud environment.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/shuttle-white.png" alt="" />
+                      <img src="icons/shuttle-white.png" alt="" className='hover:scale-105 duration-200' />
                     </div>
                     <p className='text-left'>ML-powered recommendations and automated actions.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/cost-white.png" alt="" />
+                      <img src="icons/cost-white.png" alt="" className='hover:scale-105 duration-200' />
                     </div>
                     <p className='text-left'>Historical cost trend comparisons</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/bulb-white.png" alt="" />
+                      <img src="icons/bulb-white.png" alt="" className='hover:scale-105 duration-200' />
                     </div>
                     <p className='text-left'>Real-time waste detection and cost spike resolution.</p>
                   </div>
                   <div className='flex justify-start mb-5 items-center'>
                     <div className="w-10 mr-4">
-                      <img src="icons/settings-white.png" alt="" />
+                      <img src="icons/settings-white.png" alt="" className='hover:scale-105 duration-200' />
                     </div>
                     <p className='text-left'>Cost alignment with business outcomes.</p>
                   </div>

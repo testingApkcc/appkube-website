@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
+        <script src="https://cdn.tailwindcss.com"></script>
       </head>
       <body>
         <Navbar />
