@@ -13,6 +13,7 @@ const contact = () => {
                 <h4 className='form-h4'>
                     Get in Touch to See How We Can Help Achieve Your IT Goals
                 </h4>
+                {/* <form style={{ margin: '20px 10px' }} action="/thank" name='contact' method='POST' form='gtform' id='gtform' className='df fld gp jc-c formwidth maddy' data-netlify='true' > */}
                 <form style={{ margin: '20px 10px' }} action="/thank" name='contact' method='POST' form='gtform' id='gtform' className='df fld gp jc-c formwidth maddy' data-netlify='true' >
                     <input type="hidden" name='form-name' value='contact' />
                     <div className='df gp form-field'>
