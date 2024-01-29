@@ -31,6 +31,37 @@ We’re proud of helping 10+ enterprises on cloud optimization and are confident
 
 Your enterprise, your process , your toolsets,Tailored to You
 
+![Alt text](image.png)
 
+Three ways to do cost saving:
+
+1. Savings through Discovery (Max 10-15%):
+    1. Right Sizing 
+    2. Autoscaling 
+    3. Reserve Instance 
+    4. Spot Instances 
+    5. Instance Scheduling 
+ 
+2.  ChargeBack(20)
+ Orphaned Resources / Actual Vs Non Actual Ratio improvement (30%)
+
+3. Well Architected framework review (WAFR)
+
+Container/ FAAS / Blob / CloudNative (Top 10)  
+ 
+- Webserver workloads -> S3/CDN.
+- Fileservers workloads -> CDN + Edge Lambda
+- Analytics -> Blob + Cloud Native
+- Analytics-> S3+kube
+- Storage Consolidation - Blob / Git / DB
+- Batch -> Lambda + Kube
+- Page Content à Github
+- Business Logic -> Kube
+- ERP -> Build Vs Buy (S3+kube)
+- Databases -> Serverless in kube / cloud
+- Monolith App -> Microservices
+- Bigdata/ ETL -> Fast Data
+- Dev & OPS -> DevOps
+- Email -> Office 365
 
 
